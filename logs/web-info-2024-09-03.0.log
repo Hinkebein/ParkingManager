@@ -1,0 +1,250 @@
+2023-09-30 16:56:52.714 [main] INFO  com.rabbiter.pm.ParkingApplication - Starting ParkingApplication on DESKTOP-T5LNV9M with PID 26012 (D:\Work\WorkSpace\GitWorkSpace\TenShop\resource\ParkingManager\src\ParkingManagerApi - idea\target\classes started by w_rab in D:\Work\WorkSpace\GitWorkSpace\TenShop\resource\ParkingManager\src\ParkingManagerApi - idea)
+2023-09-30 16:56:52.720 [main] INFO  com.rabbiter.pm.ParkingApplication - No active profile set, falling back to default profiles: default
+2023-09-30 16:56:53.672 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9271 (http)
+2023-09-30 16:56:53.678 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9271"]
+2023-09-30 16:56:53.678 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-30 16:56:53.678 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-09-30 16:56:53.737 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-30 16:56:53.737 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 964 ms
+2023-09-30 16:56:54.040 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2023-09-30 16:56:54.046 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-09-30 16:56:54.053 [Druid-ConnectionPool-Create-550351186] INFO  com.alibaba.druid.pool.DruidAbstractDataSource - {dataSource-1} failContinuous is true
+2023-09-30 16:56:54.056 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-30 16:58:51.482 [main] INFO  com.rabbiter.pm.ParkingApplication - Starting ParkingApplication on DESKTOP-T5LNV9M with PID 4892 (D:\Work\WorkSpace\GitWorkSpace\TenShop\resource\ParkingManager\src\ParkingManagerApi - idea\target\classes started by w_rab in D:\Work\WorkSpace\GitWorkSpace\TenShop\resource\ParkingManager\src\ParkingManagerApi - idea)
+2023-09-30 16:58:51.484 [main] INFO  com.rabbiter.pm.ParkingApplication - No active profile set, falling back to default profiles: default
+2023-09-30 16:58:52.433 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9271 (http)
+2023-09-30 16:58:52.439 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9271"]
+2023-09-30 16:58:52.439 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-30 16:58:52.439 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-09-30 16:58:52.504 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-30 16:58:52.504 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 986 ms
+2023-09-30 16:58:52.796 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2023-09-30 16:58:52.799 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-09-30 16:58:52.806 [Druid-ConnectionPool-Create-1429204602] INFO  com.alibaba.druid.pool.DruidAbstractDataSource - {dataSource-1} failContinuous is true
+2023-09-30 16:58:52.808 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-30 17:00:32.768 [main] INFO  com.rabbiter.pm.ParkingApplication - Starting ParkingApplication on DESKTOP-T5LNV9M with PID 24752 (D:\Work\WorkSpace\GitWorkSpace\TenShop\resource\ParkingManager\src\ParkingManagerApi - idea\target\classes started by w_rab in D:\Work\WorkSpace\GitWorkSpace\TenShop\resource\ParkingManager\src\ParkingManagerApi - idea)
+2023-09-30 17:00:32.770 [main] INFO  com.rabbiter.pm.ParkingApplication - No active profile set, falling back to default profiles: default
+2023-09-30 17:00:33.632 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9271 (http)
+2023-09-30 17:00:33.638 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9271"]
+2023-09-30 17:00:33.638 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-30 17:00:33.638 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-09-30 17:00:33.694 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-30 17:00:33.694 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 891 ms
+2023-09-30 17:00:33.947 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2023-09-30 17:00:33.950 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-09-30 17:00:33.959 [Druid-ConnectionPool-Create-1520927218] INFO  com.alibaba.druid.pool.DruidAbstractDataSource - {dataSource-1} failContinuous is true
+2023-09-30 17:00:33.959 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-30 17:01:19.706 [main] INFO  com.rabbiter.pm.ParkingApplication - Starting ParkingApplication on DESKTOP-T5LNV9M with PID 3276 (D:\Work\WorkSpace\GitWorkSpace\TenShop\resource\ParkingManager\src\ParkingManagerApi - idea\target\classes started by w_rab in D:\Work\WorkSpace\GitWorkSpace\TenShop\resource\ParkingManager\src\ParkingManagerApi - idea)
+2023-09-30 17:01:19.708 [main] INFO  com.rabbiter.pm.ParkingApplication - No active profile set, falling back to default profiles: default
+2023-09-30 17:01:20.603 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9271 (http)
+2023-09-30 17:01:20.610 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9271"]
+2023-09-30 17:01:20.610 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-30 17:01:20.610 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-09-30 17:01:20.674 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-30 17:01:20.674 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 929 ms
+2023-09-30 17:01:20.822 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2023-09-30 17:01:20.823 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-09-30 17:01:20.823 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2023-09-30 17:01:21.356 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-30 17:01:21.519 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9271"]
+2023-09-30 17:01:21.559 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9271 (http) with context path ''
+2023-09-30 17:01:21.565 [main] INFO  com.rabbiter.pm.ParkingApplication - Started ParkingApplication in 2.173 seconds (JVM running for 2.694)
+2023-09-30 17:01:38.667 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-30 17:01:38.668 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-09-30 17:01:38.672 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-09-30 17:01:38.672 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-09-30 17:01:38.672 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-09-30 17:01:44.924 [main] INFO  com.rabbiter.pm.ParkingApplication - Starting ParkingApplication on DESKTOP-T5LNV9M with PID 27112 (D:\Work\WorkSpace\GitWorkSpace\TenShop\resource\ParkingManager\src\ParkingManagerApi - idea\target\classes started by w_rab in D:\Work\WorkSpace\GitWorkSpace\TenShop\resource\ParkingManager\src\ParkingManagerApi - idea)
+2023-09-30 17:01:44.928 [main] INFO  com.rabbiter.pm.ParkingApplication - No active profile set, falling back to default profiles: default
+2023-09-30 17:01:45.825 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9271 (http)
+2023-09-30 17:01:45.832 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9271"]
+2023-09-30 17:01:45.832 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-30 17:01:45.833 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-09-30 17:01:45.897 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-30 17:01:45.898 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 932 ms
+2023-09-30 17:01:46.066 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2023-09-30 17:01:46.067 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-09-30 17:01:46.068 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2023-09-30 17:01:47.428 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-30 17:01:47.594 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9271"]
+2023-09-30 17:01:47.614 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9271 (http) with context path ''
+2023-09-30 17:01:47.621 [main] INFO  com.rabbiter.pm.ParkingApplication - Started ParkingApplication in 3.39 seconds (JVM running for 4.544)
+2023-09-30 17:02:28.806 [http-nio-9271-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-30 17:02:28.806 [http-nio-9271-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-09-30 17:02:28.812 [http-nio-9271-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2023-09-30 17:02:29.611 [Druid-ConnectionPool-Create-1019416046] INFO  com.alibaba.druid.pool.DruidAbstractDataSource - {dataSource-1} failContinuous is true
+2023-09-30 17:02:41.499 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-30 17:02:41.500 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-09-30 17:02:41.504 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-09-30 17:02:41.505 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-09-30 17:02:41.505 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-09-30 17:05:43.503 [main] INFO  com.rabbiter.pm.ParkingApplication - Starting ParkingApplication on DESKTOP-T5LNV9M with PID 4580 (D:\Work\WorkSpace\GitWorkSpace\TenShop\resource\ParkingManager\src\ParkingManagerApi - idea\target\classes started by w_rab in D:\Work\WorkSpace\GitWorkSpace\TenShop\resource\ParkingManager\src\ParkingManagerApi - idea)
+2023-09-30 17:05:43.506 [main] INFO  com.rabbiter.pm.ParkingApplication - No active profile set, falling back to default profiles: default
+2023-09-30 17:05:44.381 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9271 (http)
+2023-09-30 17:05:44.387 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9271"]
+2023-09-30 17:05:44.388 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-30 17:05:44.388 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-09-30 17:05:44.456 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-30 17:05:44.456 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 916 ms
+2023-09-30 17:05:44.638 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited
+2023-09-30 17:05:44.638 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2023-09-30 17:05:44.639 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2023-09-30 17:05:45.910 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-30 17:05:46.086 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9271"]
+2023-09-30 17:05:46.107 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9271 (http) with context path ''
+2023-09-30 17:05:46.114 [main] INFO  com.rabbiter.pm.ParkingApplication - Started ParkingApplication in 3.004 seconds (JVM running for 4.078)
+2023-09-30 17:05:49.817 [http-nio-9271-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-30 17:05:49.818 [http-nio-9271-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-09-30 17:05:49.822 [http-nio-9271-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-09-30 17:05:50.532 [Druid-ConnectionPool-Create-66515916] INFO  com.alibaba.druid.pool.DruidAbstractDataSource - {dataSource-1} failContinuous is true
+2023-09-30 17:49:00.946 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-30 17:49:00.947 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2023-09-30 17:49:00.956 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-09-30 17:49:00.957 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-09-30 17:49:00.957 [SpringContextShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2023-09-30 17:49:05.240 [main] INFO  com.rabbiter.pm.ParkingApplication - Starting ParkingApplication on DESKTOP-T5LNV9M with PID 24464 (D:\Work\WorkSpace\GitWorkSpace\TenShop\resource\ParkingManager\src\ParkingManagerApi - idea\target\classes started by w_rab in D:\Work\WorkSpace\GitWorkSpace\TenShop\resource\ParkingManager\src\ParkingManagerApi - idea)
+2023-09-30 17:49:05.243 [main] INFO  com.rabbiter.pm.ParkingApplication - No active profile set, falling back to default profiles: default
+2023-09-30 17:49:06.314 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9271 (http)
+2023-09-30 17:49:06.322 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9271"]
+2023-09-30 17:49:06.323 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-30 17:49:06.323 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-09-30 17:49:06.417 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-30 17:49:06.417 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1135 ms
+2023-09-30 17:49:08.026 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-30 17:49:08.228 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9271"]
+2023-09-30 17:49:08.250 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9271 (http) with context path ''
+2023-09-30 17:49:08.257 [main] INFO  com.rabbiter.pm.ParkingApplication - Started ParkingApplication in 3.51 seconds (JVM running for 4.685)
+2023-09-30 17:49:12.008 [http-nio-9271-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-30 17:49:12.009 [http-nio-9271-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-09-30 17:49:12.023 [http-nio-9271-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2023-09-30 17:49:12.183 [http-nio-9271-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-09-30 17:49:12.878 [Druid-ConnectionPool-Create-611932243] INFO  com.alibaba.druid.pool.DruidAbstractDataSource - {dataSource-1} failContinuous is true
+2023-09-30 17:49:22.838 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-30 17:49:22.839 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-09-30 17:49:22.839 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-09-30 17:49:25.962 [main] INFO  com.rabbiter.pm.ParkingApplication - Starting ParkingApplication on DESKTOP-T5LNV9M with PID 23688 (D:\Work\WorkSpace\GitWorkSpace\TenShop\resource\ParkingManager\src\ParkingManagerApi - idea\target\classes started by w_rab in D:\Work\WorkSpace\GitWorkSpace\TenShop\resource\ParkingManager\src\ParkingManagerApi - idea)
+2023-09-30 17:49:25.966 [main] INFO  com.rabbiter.pm.ParkingApplication - No active profile set, falling back to default profiles: default
+2023-09-30 17:49:26.902 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9271 (http)
+2023-09-30 17:49:26.908 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9271"]
+2023-09-30 17:49:26.909 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-30 17:49:26.909 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-09-30 17:49:26.991 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-30 17:49:26.991 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 994 ms
+2023-09-30 17:49:28.533 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-30 17:49:28.751 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9271"]
+2023-09-30 17:49:28.773 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9271 (http) with context path ''
+2023-09-30 17:49:28.780 [main] INFO  com.rabbiter.pm.ParkingApplication - Started ParkingApplication in 3.233 seconds (JVM running for 4.324)
+2023-09-30 17:49:29.314 [http-nio-9271-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-30 17:49:29.314 [http-nio-9271-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-09-30 17:49:29.318 [http-nio-9271-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-09-30 17:49:29.475 [http-nio-9271-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-09-30 17:49:29.555 [Druid-ConnectionPool-Create-461526238] INFO  com.alibaba.druid.pool.DruidAbstractDataSource - {dataSource-1} failContinuous is true
+2023-09-30 17:49:36.214 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-30 17:49:36.215 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-09-30 17:49:36.216 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-09-30 17:49:39.309 [main] INFO  com.rabbiter.pm.ParkingApplication - Starting ParkingApplication on DESKTOP-T5LNV9M with PID 24900 (D:\Work\WorkSpace\GitWorkSpace\TenShop\resource\ParkingManager\src\ParkingManagerApi - idea\target\classes started by w_rab in D:\Work\WorkSpace\GitWorkSpace\TenShop\resource\ParkingManager\src\ParkingManagerApi - idea)
+2023-09-30 17:49:39.311 [main] INFO  com.rabbiter.pm.ParkingApplication - No active profile set, falling back to default profiles: default
+2023-09-30 17:49:40.215 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9271 (http)
+2023-09-30 17:49:40.222 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9271"]
+2023-09-30 17:49:40.222 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-30 17:49:40.222 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-09-30 17:49:40.347 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-30 17:49:40.347 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1004 ms
+2023-09-30 17:49:41.899 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-30 17:49:42.103 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9271"]
+2023-09-30 17:49:42.125 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9271 (http) with context path ''
+2023-09-30 17:49:42.132 [main] INFO  com.rabbiter.pm.ParkingApplication - Started ParkingApplication in 3.231 seconds (JVM running for 4.29)
+2023-09-30 17:49:43.233 [http-nio-9271-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-30 17:49:43.233 [http-nio-9271-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-09-30 17:49:43.238 [http-nio-9271-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2023-09-30 17:49:43.378 [http-nio-9271-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-09-30 17:49:47.478 [Druid-ConnectionPool-Create-1227482963] INFO  com.alibaba.druid.pool.DruidAbstractDataSource - {dataSource-1} failContinuous is true
+2023-09-30 17:49:54.603 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-30 17:49:54.604 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-09-30 17:49:54.605 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-09-30 17:49:57.662 [main] INFO  com.rabbiter.pm.ParkingApplication - Starting ParkingApplication on DESKTOP-T5LNV9M with PID 25408 (D:\Work\WorkSpace\GitWorkSpace\TenShop\resource\ParkingManager\src\ParkingManagerApi - idea\target\classes started by w_rab in D:\Work\WorkSpace\GitWorkSpace\TenShop\resource\ParkingManager\src\ParkingManagerApi - idea)
+2023-09-30 17:49:57.665 [main] INFO  com.rabbiter.pm.ParkingApplication - No active profile set, falling back to default profiles: default
+2023-09-30 17:49:58.563 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9271 (http)
+2023-09-30 17:49:58.569 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9271"]
+2023-09-30 17:49:58.569 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-30 17:49:58.570 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-09-30 17:49:58.655 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-30 17:49:58.656 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 958 ms
+2023-09-30 17:50:00.495 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-30 17:50:00.680 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9271"]
+2023-09-30 17:50:00.702 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9271 (http) with context path ''
+2023-09-30 17:50:00.709 [main] INFO  com.rabbiter.pm.ParkingApplication - Started ParkingApplication in 3.452 seconds (JVM running for 4.524)
+2023-09-30 17:50:03.075 [http-nio-9271-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-30 17:50:03.076 [http-nio-9271-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-09-30 17:50:03.080 [http-nio-9271-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-09-30 17:50:03.230 [http-nio-9271-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-09-30 18:08:29.973 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-30 18:08:29.974 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-09-30 18:08:29.979 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-09-03 09:46:28.628 [main] INFO  com.rabbiter.pm.ParkingApplication - Starting ParkingApplication on LAPTOP-AB64R6FA with PID 16748 (D:\mycode\ideacode\ParkingManagerApi - idea\target\classes started by wangyan in D:\mycode\ideacode\ParkingManagerApi - idea)
+2024-09-03 09:46:28.632 [main] INFO  com.rabbiter.pm.ParkingApplication - No active profile set, falling back to default profiles: default
+2024-09-03 09:46:29.489 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9271 (http)
+2024-09-03 09:46:29.496 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9271"]
+2024-09-03 09:46:29.496 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-03 09:46:29.496 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-09-03 09:46:29.564 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-03 09:46:29.565 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 893 ms
+2024-09-03 09:46:30.387 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-09-03 09:46:30.567 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9271"]
+2024-09-03 09:46:30.612 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9271 (http) with context path ''
+2024-09-03 09:46:30.622 [main] INFO  com.rabbiter.pm.ParkingApplication - Started ParkingApplication in 2.371 seconds (JVM running for 2.938)
+2024-09-03 09:49:58.226 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-09-03 09:49:58.227 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-09-03 09:50:01.399 [main] INFO  com.rabbiter.pm.ParkingApplication - Starting ParkingApplication on LAPTOP-AB64R6FA with PID 22772 (D:\mycode\ideacode\ParkingManagerApi - idea\target\classes started by wangyan in D:\mycode\ideacode\ParkingManagerApi - idea)
+2024-09-03 09:50:01.402 [main] INFO  com.rabbiter.pm.ParkingApplication - No active profile set, falling back to default profiles: default
+2024-09-03 09:50:02.316 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9271 (http)
+2024-09-03 09:50:02.322 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9271"]
+2024-09-03 09:50:02.322 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-03 09:50:02.322 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-09-03 09:50:02.371 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-03 09:50:02.371 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 928 ms
+2024-09-03 09:50:03.146 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-09-03 09:50:03.326 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9271"]
+2024-09-03 09:50:03.459 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9271 (http) with context path ''
+2024-09-03 09:50:03.482 [main] INFO  com.rabbiter.pm.ParkingApplication - Started ParkingApplication in 2.447 seconds (JVM running for 2.922)
+2024-09-03 09:59:27.868 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-09-03 09:59:27.869 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-09-03 10:38:57.678 [main] INFO  com.rabbiter.pm.ParkingApplication - Starting ParkingApplication on LAPTOP-AB64R6FA with PID 9632 (D:\mycode\ideacode\ParkingManagerApi - idea\target\classes started by wangyan in D:\mycode\ideacode\ParkingManagerApi - idea)
+2024-09-03 10:38:57.682 [main] INFO  com.rabbiter.pm.ParkingApplication - No active profile set, falling back to default profiles: default
+2024-09-03 10:38:59.138 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9271 (http)
+2024-09-03 10:38:59.154 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9271"]
+2024-09-03 10:38:59.155 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-03 10:38:59.155 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-09-03 10:38:59.301 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-03 10:38:59.301 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1566 ms
+2024-09-03 10:39:00.518 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-09-03 10:39:00.934 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9271"]
+2024-09-03 10:39:01.029 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9271 (http) with context path ''
+2024-09-03 10:39:01.041 [main] INFO  com.rabbiter.pm.ParkingApplication - Started ParkingApplication in 3.915 seconds (JVM running for 4.703)
+2024-09-03 11:20:44.226 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-09-03 11:20:44.236 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-09-03 14:52:04.620 [main] INFO  com.rabbiter.pm.ParkingApplication - Starting ParkingApplication on LAPTOP-AB64R6FA with PID 19200 (D:\mycode\ideacode\ParkingManagerApi - idea\target\classes started by wangyan in D:\mycode\ideacode\ParkingManagerApi - idea)
+2024-09-03 14:52:04.625 [main] INFO  com.rabbiter.pm.ParkingApplication - No active profile set, falling back to default profiles: default
+2024-09-03 14:52:06.257 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9271 (http)
+2024-09-03 14:52:06.269 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9271"]
+2024-09-03 14:52:06.270 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-03 14:52:06.270 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-09-03 14:52:06.378 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-03 14:52:06.379 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1695 ms
+2024-09-03 14:52:07.463 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-09-03 14:52:07.910 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9271"]
+2024-09-03 14:52:08.021 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9271 (http) with context path ''
+2024-09-03 14:52:08.038 [main] INFO  com.rabbiter.pm.ParkingApplication - Started ParkingApplication in 4.008 seconds (JVM running for 4.9)
+2024-09-03 14:53:43.702 [http-nio-9271-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-03 14:53:43.702 [http-nio-9271-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-03 14:53:43.720 [http-nio-9271-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2024-09-03 14:53:44.276 [http-nio-9271-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-09-03 17:35:51.849 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-09-03 17:35:51.850 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-09-03 17:35:51.855 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

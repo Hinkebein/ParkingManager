@@ -1,0 +1,1149 @@
+2024-09-13 08:29:18.952 [main] DEBUG com.rabbiter.pm.ParkingApplication - Running with Spring Boot v2.3.7.RELEASE, Spring v5.2.12.RELEASE
+2024-09-13 08:29:20.024 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-09-13 08:29:20.033 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\com\rabbiter\pm\mapper\CarMapper.class]
+2024-09-13 08:29:20.034 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\com\rabbiter\pm\mapper\FeeMapper.class]
+2024-09-13 08:29:20.034 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\com\rabbiter\pm\mapper\LoginInfoMapper.class]
+2024-09-13 08:29:20.034 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\com\rabbiter\pm\mapper\RechargeMapper.class]
+2024-09-13 08:29:20.034 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\com\rabbiter\pm\mapper\StallMapper.class]
+2024-09-13 08:29:20.035 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\com\rabbiter\pm\mapper\StallResMapper.class]
+2024-09-13 08:29:20.035 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\com\rabbiter\pm\mapper\StallTypeMapper.class]
+2024-09-13 08:29:20.035 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\com\rabbiter\pm\mapper\UserMapper.class]
+2024-09-13 08:29:20.036 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'carMapper' and 'com.rabbiter.pm.mapper.CarMapper' mapperInterface
+2024-09-13 08:29:20.037 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'carMapper'.
+2024-09-13 08:29:20.037 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'feeMapper' and 'com.rabbiter.pm.mapper.FeeMapper' mapperInterface
+2024-09-13 08:29:20.038 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'feeMapper'.
+2024-09-13 08:29:20.038 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'loginInfoMapper' and 'com.rabbiter.pm.mapper.LoginInfoMapper' mapperInterface
+2024-09-13 08:29:20.038 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'loginInfoMapper'.
+2024-09-13 08:29:20.038 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'rechargeMapper' and 'com.rabbiter.pm.mapper.RechargeMapper' mapperInterface
+2024-09-13 08:29:20.038 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'rechargeMapper'.
+2024-09-13 08:29:20.038 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'stallMapper' and 'com.rabbiter.pm.mapper.StallMapper' mapperInterface
+2024-09-13 08:29:20.038 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'stallMapper'.
+2024-09-13 08:29:20.038 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'stallResMapper' and 'com.rabbiter.pm.mapper.StallResMapper' mapperInterface
+2024-09-13 08:29:20.038 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'stallResMapper'.
+2024-09-13 08:29:20.038 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'stallTypeMapper' and 'com.rabbiter.pm.mapper.StallTypeMapper' mapperInterface
+2024-09-13 08:29:20.039 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'stallTypeMapper'.
+2024-09-13 08:29:20.039 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.rabbiter.pm.mapper.UserMapper' mapperInterface
+2024-09-13 08:29:20.039 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2024-09-13 08:29:21.316 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+2024-09-13 08:29:21.456 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.insert
+2024-09-13 08:29:21.464 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.delete
+2024-09-13 08:29:21.471 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.deleteByMap
+2024-09-13 08:29:21.512 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.deleteById
+2024-09-13 08:29:21.514 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.deleteBatchIds
+2024-09-13 08:29:21.520 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.update
+2024-09-13 08:29:21.526 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.updateById
+2024-09-13 08:29:21.529 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.selectById
+2024-09-13 08:29:21.542 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.selectBatchIds
+2024-09-13 08:29:21.545 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.selectByMap
+2024-09-13 08:29:21.548 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.selectOne
+2024-09-13 08:29:21.562 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.selectCount
+2024-09-13 08:29:21.579 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.selectMaps
+2024-09-13 08:29:21.586 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.selectMapsPage
+2024-09-13 08:29:21.597 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.selectObjs
+2024-09-13 08:29:21.600 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.selectList
+2024-09-13 08:29:21.602 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.selectPage
+2024-09-13 08:29:21.603 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\mapper\CarMapper.xml]'
+2024-09-13 08:29:21.621 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.insert
+2024-09-13 08:29:21.623 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.delete
+2024-09-13 08:29:21.627 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.deleteByMap
+2024-09-13 08:29:21.628 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.deleteById
+2024-09-13 08:29:21.630 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.deleteBatchIds
+2024-09-13 08:29:21.633 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.update
+2024-09-13 08:29:21.634 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.updateById
+2024-09-13 08:29:21.635 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.selectById
+2024-09-13 08:29:21.636 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.selectBatchIds
+2024-09-13 08:29:21.638 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.selectByMap
+2024-09-13 08:29:21.640 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.selectOne
+2024-09-13 08:29:21.642 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.selectCount
+2024-09-13 08:29:21.644 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.selectMaps
+2024-09-13 08:29:21.645 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.selectMapsPage
+2024-09-13 08:29:21.646 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.selectObjs
+2024-09-13 08:29:21.647 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.selectList
+2024-09-13 08:29:21.648 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.selectPage
+2024-09-13 08:29:21.649 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\mapper\FeeMapper.xml]'
+2024-09-13 08:29:21.656 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.insert
+2024-09-13 08:29:21.658 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.delete
+2024-09-13 08:29:21.659 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.deleteByMap
+2024-09-13 08:29:21.660 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.deleteById
+2024-09-13 08:29:21.661 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.deleteBatchIds
+2024-09-13 08:29:21.662 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.update
+2024-09-13 08:29:21.663 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.updateById
+2024-09-13 08:29:21.663 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.selectById
+2024-09-13 08:29:21.664 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.selectBatchIds
+2024-09-13 08:29:21.665 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.selectByMap
+2024-09-13 08:29:21.666 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.selectOne
+2024-09-13 08:29:21.667 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.selectCount
+2024-09-13 08:29:21.668 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.selectMaps
+2024-09-13 08:29:21.669 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.selectMapsPage
+2024-09-13 08:29:21.670 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.selectObjs
+2024-09-13 08:29:21.671 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.selectList
+2024-09-13 08:29:21.672 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.selectPage
+2024-09-13 08:29:21.672 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\mapper\LoginInfoMapper.xml]'
+2024-09-13 08:29:21.678 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.insert
+2024-09-13 08:29:21.679 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.delete
+2024-09-13 08:29:21.680 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.deleteByMap
+2024-09-13 08:29:21.681 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.deleteById
+2024-09-13 08:29:21.682 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.deleteBatchIds
+2024-09-13 08:29:21.683 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.update
+2024-09-13 08:29:21.684 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.updateById
+2024-09-13 08:29:21.684 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.selectById
+2024-09-13 08:29:21.685 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.selectBatchIds
+2024-09-13 08:29:21.685 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.selectByMap
+2024-09-13 08:29:21.686 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.selectOne
+2024-09-13 08:29:21.688 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.selectCount
+2024-09-13 08:29:21.689 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.selectMaps
+2024-09-13 08:29:21.691 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.selectMapsPage
+2024-09-13 08:29:21.692 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.selectObjs
+2024-09-13 08:29:21.693 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.selectList
+2024-09-13 08:29:21.694 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.selectPage
+2024-09-13 08:29:21.694 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\mapper\RechargeMapper.xml]'
+2024-09-13 08:29:21.703 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.setStallOrg
+2024-09-13 08:29:21.704 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.getStallAll
+2024-09-13 08:29:21.708 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.insert
+2024-09-13 08:29:21.710 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.delete
+2024-09-13 08:29:21.712 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.deleteByMap
+2024-09-13 08:29:21.714 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.deleteById
+2024-09-13 08:29:21.715 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.deleteBatchIds
+2024-09-13 08:29:21.718 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.update
+2024-09-13 08:29:21.720 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.updateById
+2024-09-13 08:29:21.720 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.selectById
+2024-09-13 08:29:21.722 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.selectBatchIds
+2024-09-13 08:29:21.724 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.selectByMap
+2024-09-13 08:29:21.726 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.selectOne
+2024-09-13 08:29:21.728 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.selectCount
+2024-09-13 08:29:21.731 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.selectMaps
+2024-09-13 08:29:21.733 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.selectMapsPage
+2024-09-13 08:29:21.736 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.selectObjs
+2024-09-13 08:29:21.740 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.selectList
+2024-09-13 08:29:21.744 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.selectPage
+2024-09-13 08:29:21.745 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\mapper\StallMapper.xml]'
+2024-09-13 08:29:21.771 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.getAllStallRes
+2024-09-13 08:29:21.773 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.getAllListStallRes
+2024-09-13 08:29:21.790 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.insert
+2024-09-13 08:29:21.793 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.delete
+2024-09-13 08:29:21.796 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.deleteByMap
+2024-09-13 08:29:21.799 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.deleteById
+2024-09-13 08:29:21.801 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.deleteBatchIds
+2024-09-13 08:29:21.805 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.update
+2024-09-13 08:29:21.808 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.updateById
+2024-09-13 08:29:21.809 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.selectById
+2024-09-13 08:29:21.812 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.selectBatchIds
+2024-09-13 08:29:21.813 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.selectByMap
+2024-09-13 08:29:21.815 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.selectOne
+2024-09-13 08:29:21.817 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.selectCount
+2024-09-13 08:29:21.818 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.selectMaps
+2024-09-13 08:29:21.820 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.selectMapsPage
+2024-09-13 08:29:21.823 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.selectObjs
+2024-09-13 08:29:21.826 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.selectList
+2024-09-13 08:29:21.828 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.selectPage
+2024-09-13 08:29:21.828 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\mapper\StallResMapper.xml]'
+2024-09-13 08:29:21.835 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.insert
+2024-09-13 08:29:21.837 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.delete
+2024-09-13 08:29:21.840 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.deleteByMap
+2024-09-13 08:29:21.843 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.deleteById
+2024-09-13 08:29:21.844 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.deleteBatchIds
+2024-09-13 08:29:21.846 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.update
+2024-09-13 08:29:21.848 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.updateById
+2024-09-13 08:29:21.848 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.selectById
+2024-09-13 08:29:21.849 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.selectBatchIds
+2024-09-13 08:29:21.850 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.selectByMap
+2024-09-13 08:29:21.851 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.selectOne
+2024-09-13 08:29:21.853 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.selectCount
+2024-09-13 08:29:21.855 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.selectMaps
+2024-09-13 08:29:21.859 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.selectMapsPage
+2024-09-13 08:29:21.860 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.selectObjs
+2024-09-13 08:29:21.862 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.selectList
+2024-09-13 08:29:21.863 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.selectPage
+2024-09-13 08:29:21.864 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\mapper\StallTypeMapper.xml]'
+2024-09-13 08:29:21.869 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.getUserDataType
+2024-09-13 08:29:21.870 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.getUserDataMoney
+2024-09-13 08:29:21.875 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.insert
+2024-09-13 08:29:21.876 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.delete
+2024-09-13 08:29:21.878 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.deleteByMap
+2024-09-13 08:29:21.880 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.deleteById
+2024-09-13 08:29:21.881 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.deleteBatchIds
+2024-09-13 08:29:21.882 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.update
+2024-09-13 08:29:21.884 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.updateById
+2024-09-13 08:29:21.884 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.selectById
+2024-09-13 08:29:21.886 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.selectBatchIds
+2024-09-13 08:29:21.887 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.selectByMap
+2024-09-13 08:29:21.891 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.selectOne
+2024-09-13 08:29:21.892 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.selectCount
+2024-09-13 08:29:21.894 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.selectMaps
+2024-09-13 08:29:21.895 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.selectMapsPage
+2024-09-13 08:29:21.896 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.selectObjs
+2024-09-13 08:29:21.897 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.selectList
+2024-09-13 08:29:21.898 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.selectPage
+2024-09-13 08:29:21.898 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\mapper\UserMapper.xml]'
+2024-09-13 08:30:28.002 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:30:28.013 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6bc11861] was not registered for synchronization because synchronization is not active
+2024-09-13 08:30:28.630 [http-nio-9271-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7] will not be managed by Spring
+2024-09-13 08:30:28.647 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.UserMapper.selectOne - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user WHERE (username = ?)
+2024-09-13 08:30:28.713 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.UserMapper.selectOne - ==> Parameters: admin(String)
+2024-09-13 08:30:28.772 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.UserMapper.selectOne - <==      Total: 1
+2024-09-13 08:30:28.774 [http-nio-9271-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7]
+2024-09-13 08:30:28.776 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6bc11861]
+2024-09-13 08:30:28.811 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:30:28.811 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a6fd6d3] was not registered for synchronization because synchronization is not active
+2024-09-13 08:30:28.815 [http-nio-9271-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7] will not be managed by Spring
+2024-09-13 08:30:28.817 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.LoginInfoMapper.insert - ==>  Preparing: INSERT INTO login_info ( person, ip, browser, os, login_time ) VALUES ( ?, ?, ?, ?, ? )
+2024-09-13 08:30:28.826 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.LoginInfoMapper.insert - ==> Parameters: admin(String), 127.0.0.1(String), Chrome 12(String), Windows 10(String), 2024-09-13T08:30:28.809893300(LocalDateTime)
+2024-09-13 08:30:28.841 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.LoginInfoMapper.insert - <==    Updates: 1
+2024-09-13 08:30:28.846 [http-nio-9271-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7]
+2024-09-13 08:30:28.851 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a6fd6d3]
+2024-09-13 08:30:29.024 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:30:29.024 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23c66f30] was not registered for synchronization because synchronization is not active
+2024-09-13 08:30:29.025 [http-nio-9271-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7] will not be managed by Spring
+2024-09-13 08:30:29.025 [http-nio-9271-exec-2] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user WHERE uid=?
+2024-09-13 08:30:29.027 [http-nio-9271-exec-2] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2024-09-13 08:30:29.031 [http-nio-9271-exec-2] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - <==      Total: 1
+2024-09-13 08:30:29.032 [http-nio-9271-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7]
+2024-09-13 08:30:29.033 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23c66f30]
+2024-09-13 08:30:45.392 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:30:45.392 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7490f2fb] was not registered for synchronization because synchronization is not active
+2024-09-13 08:30:45.400 [http-nio-9271-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7] will not be managed by Spring
+2024-09-13 08:30:45.405 [http-nio-9271-exec-3] DEBUG com.rabbiter.pm.mapper.UserMapper.selectOne - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user WHERE (username = ?)
+2024-09-13 08:30:45.409 [http-nio-9271-exec-3] DEBUG com.rabbiter.pm.mapper.UserMapper.selectOne - ==> Parameters: user(String)
+2024-09-13 08:30:45.438 [http-nio-9271-exec-3] DEBUG com.rabbiter.pm.mapper.UserMapper.selectOne - <==      Total: 1
+2024-09-13 08:30:45.440 [http-nio-9271-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7]
+2024-09-13 08:30:45.442 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7490f2fb]
+2024-09-13 08:30:45.443 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:30:45.443 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@489e329e] was not registered for synchronization because synchronization is not active
+2024-09-13 08:30:45.444 [http-nio-9271-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7] will not be managed by Spring
+2024-09-13 08:30:45.446 [http-nio-9271-exec-3] DEBUG com.rabbiter.pm.mapper.LoginInfoMapper.insert - ==>  Preparing: INSERT INTO login_info ( person, ip, browser, os, login_time ) VALUES ( ?, ?, ?, ?, ? )
+2024-09-13 08:30:45.448 [http-nio-9271-exec-3] DEBUG com.rabbiter.pm.mapper.LoginInfoMapper.insert - ==> Parameters: user(String), 127.0.0.1(String), Chrome 12(String), Windows 10(String), 2024-09-13T08:30:45.443585300(LocalDateTime)
+2024-09-13 08:30:45.451 [http-nio-9271-exec-3] DEBUG com.rabbiter.pm.mapper.LoginInfoMapper.insert - <==    Updates: 1
+2024-09-13 08:30:45.452 [http-nio-9271-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7]
+2024-09-13 08:30:45.455 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@489e329e]
+2024-09-13 08:30:45.506 [http-nio-9271-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:30:45.507 [http-nio-9271-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29406586] was not registered for synchronization because synchronization is not active
+2024-09-13 08:30:45.507 [http-nio-9271-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7] will not be managed by Spring
+2024-09-13 08:30:45.509 [http-nio-9271-exec-4] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user WHERE uid=?
+2024-09-13 08:30:45.510 [http-nio-9271-exec-4] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==> Parameters: 2(Integer)
+2024-09-13 08:30:45.514 [http-nio-9271-exec-4] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - <==      Total: 1
+2024-09-13 08:30:45.516 [http-nio-9271-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7]
+2024-09-13 08:30:45.517 [http-nio-9271-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29406586]
+2024-09-13 08:30:59.025 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:30:59.026 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2dd5fcbc] was not registered for synchronization because synchronization is not active
+2024-09-13 08:30:59.029 [http-nio-9271-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7] will not be managed by Spring
+2024-09-13 08:30:59.034 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.UserMapper.selectOne - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user WHERE (username = ?)
+2024-09-13 08:30:59.036 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.UserMapper.selectOne - ==> Parameters: user1(String)
+2024-09-13 08:30:59.038 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.UserMapper.selectOne - <==      Total: 1
+2024-09-13 08:30:59.040 [http-nio-9271-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7]
+2024-09-13 08:30:59.041 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2dd5fcbc]
+2024-09-13 08:30:59.041 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:30:59.042 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@272d97cc] was not registered for synchronization because synchronization is not active
+2024-09-13 08:30:59.043 [http-nio-9271-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7] will not be managed by Spring
+2024-09-13 08:30:59.043 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.LoginInfoMapper.insert - ==>  Preparing: INSERT INTO login_info ( person, ip, browser, os, login_time ) VALUES ( ?, ?, ?, ?, ? )
+2024-09-13 08:30:59.046 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.LoginInfoMapper.insert - ==> Parameters: user1(String), 127.0.0.1(String), Chrome 12(String), Windows 10(String), 2024-09-13T08:30:59.041007700(LocalDateTime)
+2024-09-13 08:30:59.049 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.LoginInfoMapper.insert - <==    Updates: 1
+2024-09-13 08:30:59.050 [http-nio-9271-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7]
+2024-09-13 08:30:59.053 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@272d97cc]
+2024-09-13 08:30:59.355 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:30:59.355 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e8d5a1d] was not registered for synchronization because synchronization is not active
+2024-09-13 08:30:59.355 [http-nio-9271-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7] will not be managed by Spring
+2024-09-13 08:30:59.356 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user WHERE uid=?
+2024-09-13 08:30:59.357 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==> Parameters: 3(Integer)
+2024-09-13 08:30:59.359 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - <==      Total: 1
+2024-09-13 08:30:59.360 [http-nio-9271-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7]
+2024-09-13 08:30:59.361 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e8d5a1d]
+2024-09-13 08:31:15.383 [http-nio-9271-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:31:15.383 [http-nio-9271-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f3f7e6f] was not registered for synchronization because synchronization is not active
+2024-09-13 08:31:15.387 [http-nio-9271-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7] will not be managed by Spring
+2024-09-13 08:31:15.388 [http-nio-9271-exec-7] DEBUG com.rabbiter.pm.mapper.UserMapper.selectOne - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user WHERE (username = ?)
+2024-09-13 08:31:15.389 [http-nio-9271-exec-7] DEBUG com.rabbiter.pm.mapper.UserMapper.selectOne - ==> Parameters: user3(String)
+2024-09-13 08:31:15.391 [http-nio-9271-exec-7] DEBUG com.rabbiter.pm.mapper.UserMapper.selectOne - <==      Total: 0
+2024-09-13 08:31:15.392 [http-nio-9271-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7]
+2024-09-13 08:31:15.393 [http-nio-9271-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f3f7e6f]
+2024-09-13 08:31:46.069 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:31:46.070 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6992c25e] was not registered for synchronization because synchronization is not active
+2024-09-13 08:31:46.075 [http-nio-9271-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7] will not be managed by Spring
+2024-09-13 08:31:46.076 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.FeeMapper.selectList - ==>  Preparing: SELECT fid,car_type,money,money_desc,fee_time FROM fee WHERE (car_type LIKE ?)
+2024-09-13 08:31:46.077 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.FeeMapper.selectList - ==> Parameters: %%(String)
+2024-09-13 08:31:46.090 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.FeeMapper.selectList - <==      Total: 2
+2024-09-13 08:31:46.091 [http-nio-9271-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7]
+2024-09-13 08:31:46.092 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6992c25e]
+2024-09-13 08:31:47.754 [http-nio-9271-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:31:47.754 [http-nio-9271-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3180f50d] was not registered for synchronization because synchronization is not active
+2024-09-13 08:31:47.756 [http-nio-9271-exec-9] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7] will not be managed by Spring
+2024-09-13 08:31:47.775 [http-nio-9271-exec-9] DEBUG c.b.m.e.p.p.optimize.JsqlParserCountOptimize - JsqlParserCountOptimize sql=select *
+        from stall,user
+        where stall.user_id=user.uid
+         
+            and user.nike like CONCAT('%',?,'%')
+         
+         
+            and user.card like CONCAT('%',?,'%')
+2024-09-13 08:31:47.885 [http-nio-9271-exec-9] DEBUG com.rabbiter.pm.mapper.StallMapper.getStallAll - ==>  Preparing: SELECT COUNT(1) FROM stall, user WHERE stall.user_id = user.uid AND user.nike LIKE CONCAT('%', ?, '%') AND user.card LIKE CONCAT('%', ?, '%')
+2024-09-13 08:31:47.886 [http-nio-9271-exec-9] DEBUG com.rabbiter.pm.mapper.StallMapper.getStallAll - ==> Parameters: (String), (String)
+2024-09-13 08:31:47.901 [http-nio-9271-exec-9] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7]
+2024-09-13 08:31:47.902 [http-nio-9271-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3180f50d]
+2024-09-13 08:31:49.392 [http-nio-9271-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:31:49.393 [http-nio-9271-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@771c022e] was not registered for synchronization because synchronization is not active
+2024-09-13 08:31:49.394 [http-nio-9271-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7] will not be managed by Spring
+2024-09-13 08:31:49.395 [http-nio-9271-exec-10] DEBUG c.b.m.e.p.p.optimize.JsqlParserCountOptimize - JsqlParserCountOptimize sql=select * from stall_res,stall
+        where stall_res.stall_id = stall.sid
+         
+            and stall_res.person like CONCAT('%',?,'%')
+         
+         
+         
+            and stall.stall_area like CONCAT('%',?,'%')
+         
+        order by stall_res.create_time desc
+2024-09-13 08:31:49.399 [http-nio-9271-exec-10] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - ==>  Preparing: SELECT COUNT(1) FROM stall_res, stall WHERE stall_res.stall_id = stall.sid AND stall_res.person LIKE CONCAT('%', ?, '%') AND stall.stall_area LIKE CONCAT('%', ?, '%')
+2024-09-13 08:31:49.400 [http-nio-9271-exec-10] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - ==> Parameters: (String), (String)
+2024-09-13 08:31:49.438 [http-nio-9271-exec-10] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - ==>  Preparing: select * from stall_res,stall where stall_res.stall_id = stall.sid and stall_res.person like CONCAT('%',?,'%') and stall.stall_area like CONCAT('%',?,'%') order by stall_res.create_time desc LIMIT ?
+2024-09-13 08:31:49.439 [http-nio-9271-exec-10] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - ==> Parameters: (String), (String), 6(Long)
+2024-09-13 08:31:49.450 [http-nio-9271-exec-10] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - <==      Total: 6
+2024-09-13 08:31:49.450 [http-nio-9271-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7]
+2024-09-13 08:31:49.452 [http-nio-9271-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@771c022e]
+2024-09-13 08:31:52.911 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:31:52.912 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48b21c0b] was not registered for synchronization because synchronization is not active
+2024-09-13 08:31:52.912 [http-nio-9271-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7] will not be managed by Spring
+2024-09-13 08:31:52.913 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user WHERE uid=?
+2024-09-13 08:31:52.914 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==> Parameters: 2(Integer)
+2024-09-13 08:31:52.917 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - <==      Total: 1
+2024-09-13 08:31:52.918 [http-nio-9271-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7]
+2024-09-13 08:31:52.918 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48b21c0b]
+2024-09-13 08:31:53.272 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:31:53.272 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:31:53.272 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b45f76d] was not registered for synchronization because synchronization is not active
+2024-09-13 08:31:53.272 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24e7b0c5] was not registered for synchronization because synchronization is not active
+2024-09-13 08:31:53.273 [http-nio-9271-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7] will not be managed by Spring
+2024-09-13 08:31:53.275 [http-nio-9271-exec-3] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==>  Preparing: select * from stall,stall_res where stall_res.stall_id=stall.sid and stall_res.person=? order by stall_res.create_time desc
+2024-09-13 08:31:53.276 [http-nio-9271-exec-3] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==> Parameters: user(String)
+2024-09-13 08:31:53.286 [http-nio-9271-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6c4c77] will not be managed by Spring
+2024-09-13 08:31:53.289 [http-nio-9271-exec-2] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==>  Preparing: select * from stall,stall_res where stall_res.stall_id=stall.sid and stall_res.person=? order by stall_res.create_time desc
+2024-09-13 08:31:53.290 [http-nio-9271-exec-2] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==> Parameters: user(String)
+2024-09-13 08:31:53.297 [http-nio-9271-exec-3] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - <==      Total: 13
+2024-09-13 08:31:53.298 [http-nio-9271-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7]
+2024-09-13 08:31:53.299 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b45f76d]
+2024-09-13 08:31:53.302 [http-nio-9271-exec-2] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - <==      Total: 13
+2024-09-13 08:31:53.302 [http-nio-9271-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6c4c77]
+2024-09-13 08:31:53.303 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24e7b0c5]
+2024-09-13 08:31:54.210 [http-nio-9271-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:31:54.210 [http-nio-9271-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f4f2120] was not registered for synchronization because synchronization is not active
+2024-09-13 08:31:54.214 [http-nio-9271-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6c4c77] will not be managed by Spring
+2024-09-13 08:31:54.216 [http-nio-9271-exec-4] DEBUG c.b.m.e.p.p.optimize.JsqlParserCountOptimize - JsqlParserCountOptimize sql=SELECT  sid,stall_num,stall_area,stall_type,stall_state,stall_money,stall_live,user_id  FROM stall 
+ 
+ WHERE (stall_live = ?)
+2024-09-13 08:31:54.222 [http-nio-9271-exec-4] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM stall WHERE (stall_live = ?)
+2024-09-13 08:31:54.222 [http-nio-9271-exec-4] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==> Parameters: 1(String)
+2024-09-13 08:31:54.224 [http-nio-9271-exec-4] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==>  Preparing: SELECT sid,stall_num,stall_area,stall_type,stall_state,stall_money,stall_live,user_id FROM stall WHERE (stall_live = ?) LIMIT ?
+2024-09-13 08:31:54.225 [http-nio-9271-exec-4] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==> Parameters: 1(String), 5(Long)
+2024-09-13 08:31:54.230 [http-nio-9271-exec-4] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - <==      Total: 5
+2024-09-13 08:31:54.232 [http-nio-9271-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6c4c77]
+2024-09-13 08:31:54.232 [http-nio-9271-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f4f2120]
+2024-09-13 08:31:57.195 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:31:57.196 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75836bb1]
+2024-09-13 08:31:57.198 [http-nio-9271-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6c4c77] will be managed by Spring
+2024-09-13 08:31:57.199 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.StallMapper.selectById - ==>  Preparing: SELECT sid,stall_num,stall_area,stall_type,stall_state,stall_money,stall_live,user_id FROM stall WHERE sid=?
+2024-09-13 08:31:57.199 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.StallMapper.selectById - ==> Parameters: 9(Integer)
+2024-09-13 08:31:57.201 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.StallMapper.selectById - <==      Total: 1
+2024-09-13 08:31:57.202 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75836bb1]
+2024-09-13 08:31:57.203 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75836bb1] from current transaction
+2024-09-13 08:31:57.209 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.StallMapper.updateById - ==>  Preparing: UPDATE stall SET stall_num=?, stall_area=?, stall_type=?, stall_state=?, stall_money=?, stall_live=?, user_id=? WHERE sid=?
+2024-09-13 08:31:57.210 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.StallMapper.updateById - ==> Parameters: A01(String), 兔子小区(String), 临时车位(String), 已停车(String), 8.0(Double), 1(String), 2(Integer), 9(Integer)
+2024-09-13 08:31:57.222 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.StallMapper.updateById - <==    Updates: 1
+2024-09-13 08:31:57.222 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75836bb1]
+2024-09-13 08:31:57.222 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75836bb1] from current transaction
+2024-09-13 08:31:57.224 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user WHERE uid=?
+2024-09-13 08:31:57.224 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==> Parameters: 2(Integer)
+2024-09-13 08:31:57.228 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - <==      Total: 1
+2024-09-13 08:31:57.228 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75836bb1]
+2024-09-13 08:31:57.229 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75836bb1] from current transaction
+2024-09-13 08:31:57.232 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.StallResMapper.insert - ==>  Preparing: INSERT INTO stall_res ( person, stall_id, create_time ) VALUES ( ?, ?, ? )
+2024-09-13 08:31:57.233 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.StallResMapper.insert - ==> Parameters: user(String), 9(Integer), 2024-09-13T08:31:57.228439600(LocalDateTime)
+2024-09-13 08:31:57.234 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.StallResMapper.insert - <==    Updates: 1
+2024-09-13 08:31:57.235 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75836bb1]
+2024-09-13 08:31:57.236 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75836bb1]
+2024-09-13 08:31:57.236 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75836bb1]
+2024-09-13 08:31:57.237 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75836bb1]
+2024-09-13 08:31:57.433 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:31:57.433 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25ee5806] was not registered for synchronization because synchronization is not active
+2024-09-13 08:31:57.435 [http-nio-9271-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6c4c77] will not be managed by Spring
+2024-09-13 08:31:57.437 [http-nio-9271-exec-5] DEBUG c.b.m.e.p.p.optimize.JsqlParserCountOptimize - JsqlParserCountOptimize sql=SELECT  sid,stall_num,stall_area,stall_type,stall_state,stall_money,stall_live,user_id  FROM stall 
+ 
+ WHERE (stall_live = ?)
+2024-09-13 08:31:57.439 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM stall WHERE (stall_live = ?)
+2024-09-13 08:31:57.439 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==> Parameters: 1(String)
+2024-09-13 08:31:57.441 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==>  Preparing: SELECT sid,stall_num,stall_area,stall_type,stall_state,stall_money,stall_live,user_id FROM stall WHERE (stall_live = ?) LIMIT ?
+2024-09-13 08:31:57.442 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==> Parameters: 1(String), 5(Long)
+2024-09-13 08:31:57.446 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - <==      Total: 5
+2024-09-13 08:31:57.447 [http-nio-9271-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6c4c77]
+2024-09-13 08:31:57.447 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25ee5806]
+2024-09-13 08:32:00.963 [http-nio-9271-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:32:00.963 [http-nio-9271-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c9de55f] was not registered for synchronization because synchronization is not active
+2024-09-13 08:32:00.965 [http-nio-9271-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6c4c77] will not be managed by Spring
+2024-09-13 08:32:00.966 [http-nio-9271-exec-7] DEBUG c.b.m.e.p.p.optimize.JsqlParserCountOptimize - JsqlParserCountOptimize sql=SELECT  sid,stall_num,stall_area,stall_type,stall_state,stall_money,stall_live,user_id  FROM stall 
+ 
+ WHERE (stall_live = ?)
+2024-09-13 08:32:00.967 [http-nio-9271-exec-7] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM stall WHERE (stall_live = ?)
+2024-09-13 08:32:00.967 [http-nio-9271-exec-7] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==> Parameters: 1(String)
+2024-09-13 08:32:00.970 [http-nio-9271-exec-7] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==>  Preparing: SELECT sid,stall_num,stall_area,stall_type,stall_state,stall_money,stall_live,user_id FROM stall WHERE (stall_live = ?) LIMIT ?
+2024-09-13 08:32:00.970 [http-nio-9271-exec-7] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==> Parameters: 1(String), 5(Long)
+2024-09-13 08:32:00.979 [http-nio-9271-exec-7] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - <==      Total: 5
+2024-09-13 08:32:00.979 [http-nio-9271-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6c4c77]
+2024-09-13 08:32:00.981 [http-nio-9271-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c9de55f]
+2024-09-13 08:32:09.236 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:32:09.237 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46a86c9f]
+2024-09-13 08:32:09.237 [http-nio-9271-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6c4c77] will be managed by Spring
+2024-09-13 08:32:09.240 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.StallMapper.selectById - ==>  Preparing: SELECT sid,stall_num,stall_area,stall_type,stall_state,stall_money,stall_live,user_id FROM stall WHERE sid=?
+2024-09-13 08:32:09.240 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.StallMapper.selectById - ==> Parameters: 10(Integer)
+2024-09-13 08:32:09.243 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.StallMapper.selectById - <==      Total: 1
+2024-09-13 08:32:09.243 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46a86c9f]
+2024-09-13 08:32:09.244 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46a86c9f] from current transaction
+2024-09-13 08:32:09.246 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.StallMapper.updateById - ==>  Preparing: UPDATE stall SET stall_num=?, stall_area=?, stall_type=?, stall_state=?, stall_money=?, stall_live=?, user_id=? WHERE sid=?
+2024-09-13 08:32:09.248 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.StallMapper.updateById - ==> Parameters: A02(String), 兔子小区(String), 临时车位(String), 已停车(String), 8.0(Double), 1(String), 3(Integer), 10(Integer)
+2024-09-13 08:32:09.250 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.StallMapper.updateById - <==    Updates: 1
+2024-09-13 08:32:09.250 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46a86c9f]
+2024-09-13 08:32:09.250 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46a86c9f] from current transaction
+2024-09-13 08:32:09.252 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user WHERE uid=?
+2024-09-13 08:32:09.252 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==> Parameters: 3(Integer)
+2024-09-13 08:32:09.255 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - <==      Total: 1
+2024-09-13 08:32:09.256 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46a86c9f]
+2024-09-13 08:32:09.256 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46a86c9f] from current transaction
+2024-09-13 08:32:09.259 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.StallResMapper.insert - ==>  Preparing: INSERT INTO stall_res ( person, stall_id, create_time ) VALUES ( ?, ?, ? )
+2024-09-13 08:32:09.260 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.StallResMapper.insert - ==> Parameters: user1(String), 10(Integer), 2024-09-13T08:32:09.256411900(LocalDateTime)
+2024-09-13 08:32:09.262 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.StallResMapper.insert - <==    Updates: 1
+2024-09-13 08:32:09.263 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46a86c9f]
+2024-09-13 08:32:09.263 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46a86c9f]
+2024-09-13 08:32:09.263 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46a86c9f]
+2024-09-13 08:32:09.263 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46a86c9f]
+2024-09-13 08:32:09.485 [http-nio-9271-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:32:09.486 [http-nio-9271-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3db5fdd4] was not registered for synchronization because synchronization is not active
+2024-09-13 08:32:09.487 [http-nio-9271-exec-9] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6c4c77] will not be managed by Spring
+2024-09-13 08:32:09.488 [http-nio-9271-exec-9] DEBUG c.b.m.e.p.p.optimize.JsqlParserCountOptimize - JsqlParserCountOptimize sql=SELECT  sid,stall_num,stall_area,stall_type,stall_state,stall_money,stall_live,user_id  FROM stall 
+ 
+ WHERE (stall_live = ?)
+2024-09-13 08:32:09.490 [http-nio-9271-exec-9] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM stall WHERE (stall_live = ?)
+2024-09-13 08:32:09.490 [http-nio-9271-exec-9] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==> Parameters: 1(String)
+2024-09-13 08:32:09.493 [http-nio-9271-exec-9] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==>  Preparing: SELECT sid,stall_num,stall_area,stall_type,stall_state,stall_money,stall_live,user_id FROM stall WHERE (stall_live = ?) LIMIT ?
+2024-09-13 08:32:09.494 [http-nio-9271-exec-9] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==> Parameters: 1(String), 5(Long)
+2024-09-13 08:32:09.498 [http-nio-9271-exec-9] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - <==      Total: 5
+2024-09-13 08:32:09.499 [http-nio-9271-exec-9] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6c4c77]
+2024-09-13 08:32:09.500 [http-nio-9271-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3db5fdd4]
+2024-09-13 08:32:37.021 [http-nio-9271-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:32:37.022 [http-nio-9271-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c5a0867] was not registered for synchronization because synchronization is not active
+2024-09-13 08:32:37.022 [http-nio-9271-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6c4c77] will not be managed by Spring
+2024-09-13 08:32:37.023 [http-nio-9271-exec-10] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user WHERE uid=?
+2024-09-13 08:32:37.023 [http-nio-9271-exec-10] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==> Parameters: 3(Integer)
+2024-09-13 08:32:37.025 [http-nio-9271-exec-10] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - <==      Total: 1
+2024-09-13 08:32:37.026 [http-nio-9271-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6c4c77]
+2024-09-13 08:32:37.026 [http-nio-9271-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c5a0867]
+2024-09-13 08:32:37.378 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:32:37.378 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a2197bf] was not registered for synchronization because synchronization is not active
+2024-09-13 08:32:37.378 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:32:37.378 [http-nio-9271-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6c4c77] will not be managed by Spring
+2024-09-13 08:32:37.379 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5557cba1] was not registered for synchronization because synchronization is not active
+2024-09-13 08:32:37.379 [http-nio-9271-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7] will not be managed by Spring
+2024-09-13 08:32:37.380 [http-nio-9271-exec-1] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==>  Preparing: select * from stall,stall_res where stall_res.stall_id=stall.sid and stall_res.person=? order by stall_res.create_time desc
+2024-09-13 08:32:37.380 [http-nio-9271-exec-2] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==>  Preparing: select * from stall,stall_res where stall_res.stall_id=stall.sid and stall_res.person=? order by stall_res.create_time desc
+2024-09-13 08:32:37.380 [http-nio-9271-exec-1] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==> Parameters: user1(String)
+2024-09-13 08:32:37.381 [http-nio-9271-exec-2] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==> Parameters: user1(String)
+2024-09-13 08:32:37.385 [http-nio-9271-exec-2] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - <==      Total: 5
+2024-09-13 08:32:37.386 [http-nio-9271-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@485f28f7]
+2024-09-13 08:32:37.386 [http-nio-9271-exec-1] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - <==      Total: 5
+2024-09-13 08:32:37.387 [http-nio-9271-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1b6c4c77]
+2024-09-13 08:32:37.387 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5557cba1]
+2024-09-13 08:32:37.388 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a2197bf]
+2024-09-13 08:34:22.640 [main] DEBUG com.rabbiter.pm.ParkingApplication - Running with Spring Boot v2.3.7.RELEASE, Spring v5.2.12.RELEASE
+2024-09-13 08:34:23.439 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-09-13 08:34:23.450 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\com\rabbiter\pm\mapper\CarMapper.class]
+2024-09-13 08:34:23.450 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\com\rabbiter\pm\mapper\FeeMapper.class]
+2024-09-13 08:34:23.451 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\com\rabbiter\pm\mapper\LoginInfoMapper.class]
+2024-09-13 08:34:23.451 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\com\rabbiter\pm\mapper\RechargeMapper.class]
+2024-09-13 08:34:23.451 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\com\rabbiter\pm\mapper\StallMapper.class]
+2024-09-13 08:34:23.451 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\com\rabbiter\pm\mapper\StallResMapper.class]
+2024-09-13 08:34:23.452 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\com\rabbiter\pm\mapper\StallTypeMapper.class]
+2024-09-13 08:34:23.452 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\com\rabbiter\pm\mapper\UserMapper.class]
+2024-09-13 08:34:23.454 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'carMapper' and 'com.rabbiter.pm.mapper.CarMapper' mapperInterface
+2024-09-13 08:34:23.455 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'carMapper'.
+2024-09-13 08:34:23.455 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'feeMapper' and 'com.rabbiter.pm.mapper.FeeMapper' mapperInterface
+2024-09-13 08:34:23.455 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'feeMapper'.
+2024-09-13 08:34:23.455 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'loginInfoMapper' and 'com.rabbiter.pm.mapper.LoginInfoMapper' mapperInterface
+2024-09-13 08:34:23.456 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'loginInfoMapper'.
+2024-09-13 08:34:23.456 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'rechargeMapper' and 'com.rabbiter.pm.mapper.RechargeMapper' mapperInterface
+2024-09-13 08:34:23.456 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'rechargeMapper'.
+2024-09-13 08:34:23.456 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'stallMapper' and 'com.rabbiter.pm.mapper.StallMapper' mapperInterface
+2024-09-13 08:34:23.456 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'stallMapper'.
+2024-09-13 08:34:23.457 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'stallResMapper' and 'com.rabbiter.pm.mapper.StallResMapper' mapperInterface
+2024-09-13 08:34:23.457 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'stallResMapper'.
+2024-09-13 08:34:23.457 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'stallTypeMapper' and 'com.rabbiter.pm.mapper.StallTypeMapper' mapperInterface
+2024-09-13 08:34:23.457 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'stallTypeMapper'.
+2024-09-13 08:34:23.457 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.rabbiter.pm.mapper.UserMapper' mapperInterface
+2024-09-13 08:34:23.457 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2024-09-13 08:34:24.423 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+2024-09-13 08:34:24.496 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.insert
+2024-09-13 08:34:24.501 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.delete
+2024-09-13 08:34:24.504 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.deleteByMap
+2024-09-13 08:34:24.521 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.deleteById
+2024-09-13 08:34:24.523 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.deleteBatchIds
+2024-09-13 08:34:24.527 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.update
+2024-09-13 08:34:24.529 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.updateById
+2024-09-13 08:34:24.530 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.selectById
+2024-09-13 08:34:24.532 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.selectBatchIds
+2024-09-13 08:34:24.534 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.selectByMap
+2024-09-13 08:34:24.536 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.selectOne
+2024-09-13 08:34:24.538 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.selectCount
+2024-09-13 08:34:24.540 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.selectMaps
+2024-09-13 08:34:24.542 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.selectMapsPage
+2024-09-13 08:34:24.544 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.selectObjs
+2024-09-13 08:34:24.547 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.selectList
+2024-09-13 08:34:24.548 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.CarMapper.selectPage
+2024-09-13 08:34:24.549 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\mapper\CarMapper.xml]'
+2024-09-13 08:34:24.559 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.insert
+2024-09-13 08:34:24.562 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.delete
+2024-09-13 08:34:24.563 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.deleteByMap
+2024-09-13 08:34:24.565 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.deleteById
+2024-09-13 08:34:24.567 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.deleteBatchIds
+2024-09-13 08:34:24.569 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.update
+2024-09-13 08:34:24.570 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.updateById
+2024-09-13 08:34:24.571 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.selectById
+2024-09-13 08:34:24.572 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.selectBatchIds
+2024-09-13 08:34:24.573 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.selectByMap
+2024-09-13 08:34:24.575 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.selectOne
+2024-09-13 08:34:24.577 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.selectCount
+2024-09-13 08:34:24.579 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.selectMaps
+2024-09-13 08:34:24.580 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.selectMapsPage
+2024-09-13 08:34:24.582 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.selectObjs
+2024-09-13 08:34:24.583 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.selectList
+2024-09-13 08:34:24.585 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.FeeMapper.selectPage
+2024-09-13 08:34:24.585 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\mapper\FeeMapper.xml]'
+2024-09-13 08:34:24.593 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.insert
+2024-09-13 08:34:24.595 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.delete
+2024-09-13 08:34:24.596 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.deleteByMap
+2024-09-13 08:34:24.598 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.deleteById
+2024-09-13 08:34:24.599 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.deleteBatchIds
+2024-09-13 08:34:24.600 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.update
+2024-09-13 08:34:24.601 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.updateById
+2024-09-13 08:34:24.602 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.selectById
+2024-09-13 08:34:24.602 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.selectBatchIds
+2024-09-13 08:34:24.604 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.selectByMap
+2024-09-13 08:34:24.606 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.selectOne
+2024-09-13 08:34:24.607 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.selectCount
+2024-09-13 08:34:24.609 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.selectMaps
+2024-09-13 08:34:24.610 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.selectMapsPage
+2024-09-13 08:34:24.611 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.selectObjs
+2024-09-13 08:34:24.613 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.selectList
+2024-09-13 08:34:24.614 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.LoginInfoMapper.selectPage
+2024-09-13 08:34:24.615 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\mapper\LoginInfoMapper.xml]'
+2024-09-13 08:34:24.624 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.insert
+2024-09-13 08:34:24.626 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.delete
+2024-09-13 08:34:24.628 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.deleteByMap
+2024-09-13 08:34:24.630 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.deleteById
+2024-09-13 08:34:24.631 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.deleteBatchIds
+2024-09-13 08:34:24.632 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.update
+2024-09-13 08:34:24.634 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.updateById
+2024-09-13 08:34:24.634 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.selectById
+2024-09-13 08:34:24.636 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.selectBatchIds
+2024-09-13 08:34:24.637 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.selectByMap
+2024-09-13 08:34:24.639 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.selectOne
+2024-09-13 08:34:24.641 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.selectCount
+2024-09-13 08:34:24.643 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.selectMaps
+2024-09-13 08:34:24.645 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.selectMapsPage
+2024-09-13 08:34:24.646 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.selectObjs
+2024-09-13 08:34:24.649 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.selectList
+2024-09-13 08:34:24.651 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.RechargeMapper.selectPage
+2024-09-13 08:34:24.651 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\mapper\RechargeMapper.xml]'
+2024-09-13 08:34:24.662 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.setStallOrg
+2024-09-13 08:34:24.663 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.getStallAll
+2024-09-13 08:34:24.668 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.insert
+2024-09-13 08:34:24.670 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.delete
+2024-09-13 08:34:24.673 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.deleteByMap
+2024-09-13 08:34:24.674 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.deleteById
+2024-09-13 08:34:24.676 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.deleteBatchIds
+2024-09-13 08:34:24.679 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.update
+2024-09-13 08:34:24.681 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.updateById
+2024-09-13 08:34:24.682 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.selectById
+2024-09-13 08:34:24.684 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.selectBatchIds
+2024-09-13 08:34:24.686 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.selectByMap
+2024-09-13 08:34:24.689 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.selectOne
+2024-09-13 08:34:24.690 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.selectCount
+2024-09-13 08:34:24.692 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.selectMaps
+2024-09-13 08:34:24.693 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.selectMapsPage
+2024-09-13 08:34:24.695 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.selectObjs
+2024-09-13 08:34:24.697 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.selectList
+2024-09-13 08:34:24.699 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallMapper.selectPage
+2024-09-13 08:34:24.699 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\mapper\StallMapper.xml]'
+2024-09-13 08:34:24.709 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.getAllStallRes
+2024-09-13 08:34:24.709 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.getAllListStallRes
+2024-09-13 08:34:24.713 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.insert
+2024-09-13 08:34:24.715 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.delete
+2024-09-13 08:34:24.716 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.deleteByMap
+2024-09-13 08:34:24.719 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.deleteById
+2024-09-13 08:34:24.721 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.deleteBatchIds
+2024-09-13 08:34:24.723 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.update
+2024-09-13 08:34:24.725 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.updateById
+2024-09-13 08:34:24.725 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.selectById
+2024-09-13 08:34:24.727 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.selectBatchIds
+2024-09-13 08:34:24.728 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.selectByMap
+2024-09-13 08:34:24.729 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.selectOne
+2024-09-13 08:34:24.730 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.selectCount
+2024-09-13 08:34:24.733 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.selectMaps
+2024-09-13 08:34:24.735 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.selectMapsPage
+2024-09-13 08:34:24.737 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.selectObjs
+2024-09-13 08:34:24.739 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.selectList
+2024-09-13 08:34:24.740 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallResMapper.selectPage
+2024-09-13 08:34:24.740 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\mapper\StallResMapper.xml]'
+2024-09-13 08:34:24.746 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.insert
+2024-09-13 08:34:24.748 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.delete
+2024-09-13 08:34:24.749 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.deleteByMap
+2024-09-13 08:34:24.750 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.deleteById
+2024-09-13 08:34:24.751 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.deleteBatchIds
+2024-09-13 08:34:24.754 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.update
+2024-09-13 08:34:24.756 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.updateById
+2024-09-13 08:34:24.756 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.selectById
+2024-09-13 08:34:24.757 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.selectBatchIds
+2024-09-13 08:34:24.758 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.selectByMap
+2024-09-13 08:34:24.759 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.selectOne
+2024-09-13 08:34:24.760 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.selectCount
+2024-09-13 08:34:24.760 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.selectMaps
+2024-09-13 08:34:24.761 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.selectMapsPage
+2024-09-13 08:34:24.762 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.selectObjs
+2024-09-13 08:34:24.763 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.selectList
+2024-09-13 08:34:24.765 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.StallTypeMapper.selectPage
+2024-09-13 08:34:24.765 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\mapper\StallTypeMapper.xml]'
+2024-09-13 08:34:24.770 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.getUserDataType
+2024-09-13 08:34:24.771 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.getUserDataMoney
+2024-09-13 08:34:24.774 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.insert
+2024-09-13 08:34:24.775 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.delete
+2024-09-13 08:34:24.776 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.deleteByMap
+2024-09-13 08:34:24.777 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.deleteById
+2024-09-13 08:34:24.778 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.deleteBatchIds
+2024-09-13 08:34:24.780 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.update
+2024-09-13 08:34:24.781 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.updateById
+2024-09-13 08:34:24.781 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.selectById
+2024-09-13 08:34:24.784 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.selectBatchIds
+2024-09-13 08:34:24.785 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.selectByMap
+2024-09-13 08:34:24.786 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.selectOne
+2024-09-13 08:34:24.791 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.selectCount
+2024-09-13 08:34:24.792 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.selectMaps
+2024-09-13 08:34:24.793 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.selectMapsPage
+2024-09-13 08:34:24.794 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.selectObjs
+2024-09-13 08:34:24.795 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.selectList
+2024-09-13 08:34:24.795 [main] DEBUG com.baomidou.mybatisplus.core.MybatisConfiguration - addMappedStatement: com.rabbiter.pm.mapper.UserMapper.selectPage
+2024-09-13 08:34:24.797 [main] DEBUG c.b.m.e.spring.MybatisSqlSessionFactoryBean - Parsed mapper file: 'file [D:\mycode\ideacode\ParkingManagerApi - idea\target\classes\mapper\UserMapper.xml]'
+2024-09-13 08:34:55.604 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:34:55.618 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61ee980a] was not registered for synchronization because synchronization is not active
+2024-09-13 08:34:55.730 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:34:55.731 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10163f15] was not registered for synchronization because synchronization is not active
+2024-09-13 08:34:56.085 [http-nio-9271-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099] will not be managed by Spring
+2024-09-13 08:34:56.087 [http-nio-9271-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d6f9391] will not be managed by Spring
+2024-09-13 08:34:56.114 [http-nio-9271-exec-2] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user WHERE uid=?
+2024-09-13 08:34:56.122 [http-nio-9271-exec-3] DEBUG c.b.m.e.p.p.optimize.JsqlParserCountOptimize - JsqlParserCountOptimize sql=select * from stall_res,stall
+        where stall_res.stall_id = stall.sid
+         
+            and stall_res.person like CONCAT('%',?,'%')
+         
+         
+         
+            and stall.stall_area like CONCAT('%',?,'%')
+         
+        order by stall_res.create_time desc
+2024-09-13 08:34:56.216 [http-nio-9271-exec-2] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==> Parameters: 1(Integer)
+2024-09-13 08:34:56.233 [http-nio-9271-exec-3] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - ==>  Preparing: SELECT COUNT(1) FROM stall_res, stall WHERE stall_res.stall_id = stall.sid AND stall_res.person LIKE CONCAT('%', ?, '%') AND stall.stall_area LIKE CONCAT('%', ?, '%')
+2024-09-13 08:34:56.234 [http-nio-9271-exec-3] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - ==> Parameters: (String), (String)
+2024-09-13 08:34:56.294 [http-nio-9271-exec-2] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - <==      Total: 1
+2024-09-13 08:34:56.295 [http-nio-9271-exec-3] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - ==>  Preparing: select * from stall_res,stall where stall_res.stall_id = stall.sid and stall_res.person like CONCAT('%',?,'%') and stall.stall_area like CONCAT('%',?,'%') order by stall_res.create_time desc LIMIT ?
+2024-09-13 08:34:56.296 [http-nio-9271-exec-3] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - ==> Parameters: (String), (String), 6(Long)
+2024-09-13 08:34:56.296 [http-nio-9271-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099]
+2024-09-13 08:34:56.299 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61ee980a]
+2024-09-13 08:34:56.309 [http-nio-9271-exec-3] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - <==      Total: 6
+2024-09-13 08:34:56.309 [http-nio-9271-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d6f9391]
+2024-09-13 08:34:56.310 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10163f15]
+2024-09-13 08:35:19.222 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:35:19.223 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5104aade] was not registered for synchronization because synchronization is not active
+2024-09-13 08:35:19.223 [http-nio-9271-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d6f9391] will not be managed by Spring
+2024-09-13 08:35:19.225 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user WHERE uid=?
+2024-09-13 08:35:19.225 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==> Parameters: 2(Integer)
+2024-09-13 08:35:19.228 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - <==      Total: 1
+2024-09-13 08:35:19.229 [http-nio-9271-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d6f9391]
+2024-09-13 08:35:19.229 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5104aade]
+2024-09-13 08:35:19.568 [http-nio-9271-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:35:19.568 [http-nio-9271-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f330140] was not registered for synchronization because synchronization is not active
+2024-09-13 08:35:19.568 [http-nio-9271-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:35:19.568 [http-nio-9271-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ee51afb] was not registered for synchronization because synchronization is not active
+2024-09-13 08:35:19.568 [http-nio-9271-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d6f9391] will not be managed by Spring
+2024-09-13 08:35:19.569 [http-nio-9271-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099] will not be managed by Spring
+2024-09-13 08:35:19.569 [http-nio-9271-exec-7] DEBUG com.rabbiter.pm.mapper.UserMapper.getUserDataType - ==>  Preparing: select s.stall_type as name,count(1) as value from stall_res r,stall s where r.stall_id=s.sid and r.person=? group by s.stall_type
+2024-09-13 08:35:19.570 [http-nio-9271-exec-7] DEBUG com.rabbiter.pm.mapper.UserMapper.getUserDataType - ==> Parameters: user(String)
+2024-09-13 08:35:19.571 [http-nio-9271-exec-10] DEBUG com.rabbiter.pm.mapper.UserMapper.getUserDataMoney - ==>  Preparing: select DATE_FORMAT(over_time,"%Y-%m-%d") name,sum(pay_money) value from stall_res where person=? and over_time is NOT NULL group by DATE_FORMAT(over_time,"%Y-%m-%d") order by DATE_FORMAT(over_time,"%Y-%m-%d") ASC limit 0,5
+2024-09-13 08:35:19.571 [http-nio-9271-exec-10] DEBUG com.rabbiter.pm.mapper.UserMapper.getUserDataMoney - ==> Parameters: user(String)
+2024-09-13 08:35:19.591 [http-nio-9271-exec-7] DEBUG com.rabbiter.pm.mapper.UserMapper.getUserDataType - <==      Total: 2
+2024-09-13 08:35:19.591 [http-nio-9271-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d6f9391]
+2024-09-13 08:35:19.592 [http-nio-9271-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f330140]
+2024-09-13 08:35:19.600 [http-nio-9271-exec-10] DEBUG com.rabbiter.pm.mapper.UserMapper.getUserDataMoney - <==      Total: 5
+2024-09-13 08:35:19.601 [http-nio-9271-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099]
+2024-09-13 08:35:19.602 [http-nio-9271-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ee51afb]
+2024-09-13 08:35:24.236 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:35:24.236 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5effcda0] was not registered for synchronization because synchronization is not active
+2024-09-13 08:35:24.267 [http-nio-9271-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099] will not be managed by Spring
+2024-09-13 08:35:24.270 [http-nio-9271-exec-1] DEBUG c.b.m.e.p.p.optimize.JsqlParserCountOptimize - JsqlParserCountOptimize sql=SELECT  uid,username,password,nike,age,sex,phone,card,money,role,create_time  FROM user
+2024-09-13 08:35:24.273 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM user
+2024-09-13 08:35:24.273 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.UserMapper.selectPage - ==> Parameters: 
+2024-09-13 08:35:24.276 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.UserMapper.selectPage - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user LIMIT ?
+2024-09-13 08:35:24.276 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.UserMapper.selectPage - ==> Parameters: 6(Long)
+2024-09-13 08:35:24.282 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.UserMapper.selectPage - <==      Total: 3
+2024-09-13 08:35:24.282 [http-nio-9271-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099]
+2024-09-13 08:35:24.283 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5effcda0]
+2024-09-13 08:36:14.685 [http-nio-9271-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:36:14.686 [http-nio-9271-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e4221b4] was not registered for synchronization because synchronization is not active
+2024-09-13 08:36:14.694 [http-nio-9271-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099] will not be managed by Spring
+2024-09-13 08:36:14.697 [http-nio-9271-exec-4] DEBUG com.rabbiter.pm.mapper.UserMapper.updateById - ==>  Preparing: UPDATE user SET password=? WHERE uid=?
+2024-09-13 08:36:14.698 [http-nio-9271-exec-4] DEBUG com.rabbiter.pm.mapper.UserMapper.updateById - ==> Parameters: 123456(String), 2(Integer)
+2024-09-13 08:36:14.700 [http-nio-9271-exec-4] DEBUG com.rabbiter.pm.mapper.UserMapper.updateById - <==    Updates: 1
+2024-09-13 08:36:14.701 [http-nio-9271-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099]
+2024-09-13 08:36:14.722 [http-nio-9271-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e4221b4]
+2024-09-13 08:36:14.950 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:36:14.951 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39e0742f] was not registered for synchronization because synchronization is not active
+2024-09-13 08:36:14.951 [http-nio-9271-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099] will not be managed by Spring
+2024-09-13 08:36:14.954 [http-nio-9271-exec-5] DEBUG c.b.m.e.p.p.optimize.JsqlParserCountOptimize - JsqlParserCountOptimize sql=SELECT  uid,username,password,nike,age,sex,phone,card,money,role,create_time  FROM user
+2024-09-13 08:36:14.957 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.UserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM user
+2024-09-13 08:36:14.958 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.UserMapper.selectPage - ==> Parameters: 
+2024-09-13 08:36:14.960 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.UserMapper.selectPage - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user LIMIT ?
+2024-09-13 08:36:14.961 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.UserMapper.selectPage - ==> Parameters: 6(Long)
+2024-09-13 08:36:14.963 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.UserMapper.selectPage - <==      Total: 3
+2024-09-13 08:36:14.963 [http-nio-9271-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099]
+2024-09-13 08:36:14.963 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39e0742f]
+2024-09-13 08:36:28.375 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:36:28.375 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b73d27] was not registered for synchronization because synchronization is not active
+2024-09-13 08:36:28.393 [http-nio-9271-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099] will not be managed by Spring
+2024-09-13 08:36:28.395 [http-nio-9271-exec-8] DEBUG c.b.m.e.p.p.optimize.JsqlParserCountOptimize - JsqlParserCountOptimize sql=SELECT  sid,stall_num,stall_area,stall_type,stall_state,stall_money,stall_live,user_id  FROM stall 
+ 
+ WHERE (stall_live = ?)
+2024-09-13 08:36:28.399 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM stall WHERE (stall_live = ?)
+2024-09-13 08:36:28.400 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==> Parameters: 1(String)
+2024-09-13 08:36:28.403 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==>  Preparing: SELECT sid,stall_num,stall_area,stall_type,stall_state,stall_money,stall_live,user_id FROM stall WHERE (stall_live = ?) LIMIT ?
+2024-09-13 08:36:28.404 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==> Parameters: 1(String), 6(Long)
+2024-09-13 08:36:28.410 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - <==      Total: 6
+2024-09-13 08:36:28.410 [http-nio-9271-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099]
+2024-09-13 08:36:28.410 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b73d27]
+2024-09-13 08:36:41.860 [http-nio-9271-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:36:41.860 [http-nio-9271-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55bc001c] was not registered for synchronization because synchronization is not active
+2024-09-13 08:36:41.861 [http-nio-9271-exec-9] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099] will not be managed by Spring
+2024-09-13 08:36:41.862 [http-nio-9271-exec-9] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user WHERE uid=?
+2024-09-13 08:36:41.863 [http-nio-9271-exec-9] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==> Parameters: 2(Integer)
+2024-09-13 08:36:41.867 [http-nio-9271-exec-9] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - <==      Total: 1
+2024-09-13 08:36:41.867 [http-nio-9271-exec-9] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099]
+2024-09-13 08:36:41.868 [http-nio-9271-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55bc001c]
+2024-09-13 08:36:42.128 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:36:42.129 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c96d434] was not registered for synchronization because synchronization is not active
+2024-09-13 08:36:42.129 [http-nio-9271-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099] will not be managed by Spring
+2024-09-13 08:36:42.131 [http-nio-9271-exec-2] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==>  Preparing: select * from stall,stall_res where stall_res.stall_id=stall.sid and stall_res.person=? order by stall_res.create_time desc
+2024-09-13 08:36:42.132 [http-nio-9271-exec-2] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==> Parameters: user(String)
+2024-09-13 08:36:42.153 [http-nio-9271-exec-2] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - <==      Total: 14
+2024-09-13 08:36:42.154 [http-nio-9271-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099]
+2024-09-13 08:36:42.155 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c96d434]
+2024-09-13 08:36:42.213 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:36:42.213 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@18d6cf9c] was not registered for synchronization because synchronization is not active
+2024-09-13 08:36:42.213 [http-nio-9271-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099] will not be managed by Spring
+2024-09-13 08:36:42.215 [http-nio-9271-exec-3] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==>  Preparing: select * from stall,stall_res where stall_res.stall_id=stall.sid and stall_res.person=? order by stall_res.create_time desc
+2024-09-13 08:36:42.216 [http-nio-9271-exec-3] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==> Parameters: user(String)
+2024-09-13 08:36:42.227 [http-nio-9271-exec-3] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - <==      Total: 14
+2024-09-13 08:36:42.229 [http-nio-9271-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099]
+2024-09-13 08:36:42.230 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@18d6cf9c]
+2024-09-13 08:37:10.737 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:37:10.737 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2faadb15] was not registered for synchronization because synchronization is not active
+2024-09-13 08:37:10.738 [http-nio-9271-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099] will not be managed by Spring
+2024-09-13 08:37:10.739 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user WHERE uid=?
+2024-09-13 08:37:10.739 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==> Parameters: 2(Integer)
+2024-09-13 08:37:10.742 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - <==      Total: 1
+2024-09-13 08:37:10.744 [http-nio-9271-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099]
+2024-09-13 08:37:10.746 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2faadb15]
+2024-09-13 08:37:11.089 [http-nio-9271-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:37:11.089 [http-nio-9271-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:37:11.089 [http-nio-9271-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48c364f0] was not registered for synchronization because synchronization is not active
+2024-09-13 08:37:11.089 [http-nio-9271-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3bb9b4d1] was not registered for synchronization because synchronization is not active
+2024-09-13 08:37:11.090 [http-nio-9271-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099] will not be managed by Spring
+2024-09-13 08:37:11.092 [http-nio-9271-exec-7] DEBUG com.rabbiter.pm.mapper.UserMapper.getUserDataType - ==>  Preparing: select s.stall_type as name,count(1) as value from stall_res r,stall s where r.stall_id=s.sid and r.person=? group by s.stall_type
+2024-09-13 08:37:11.093 [http-nio-9271-exec-7] DEBUG com.rabbiter.pm.mapper.UserMapper.getUserDataType - ==> Parameters: user(String)
+2024-09-13 08:37:11.096 [http-nio-9271-exec-7] DEBUG com.rabbiter.pm.mapper.UserMapper.getUserDataType - <==      Total: 2
+2024-09-13 08:37:11.096 [http-nio-9271-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099]
+2024-09-13 08:37:11.097 [http-nio-9271-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48c364f0]
+2024-09-13 08:37:11.152 [http-nio-9271-exec-10] DEBUG com.alibaba.druid.pool.DruidDataSource - skip not validate connection.
+2024-09-13 08:37:11.152 [http-nio-9271-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099] will not be managed by Spring
+2024-09-13 08:37:11.153 [http-nio-9271-exec-10] DEBUG com.rabbiter.pm.mapper.UserMapper.getUserDataMoney - ==>  Preparing: select DATE_FORMAT(over_time,"%Y-%m-%d") name,sum(pay_money) value from stall_res where person=? and over_time is NOT NULL group by DATE_FORMAT(over_time,"%Y-%m-%d") order by DATE_FORMAT(over_time,"%Y-%m-%d") ASC limit 0,5
+2024-09-13 08:37:11.154 [http-nio-9271-exec-10] DEBUG com.rabbiter.pm.mapper.UserMapper.getUserDataMoney - ==> Parameters: user(String)
+2024-09-13 08:37:11.157 [http-nio-9271-exec-10] DEBUG com.rabbiter.pm.mapper.UserMapper.getUserDataMoney - <==      Total: 5
+2024-09-13 08:37:11.158 [http-nio-9271-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099]
+2024-09-13 08:37:11.158 [http-nio-9271-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3bb9b4d1]
+2024-09-13 08:37:11.787 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:37:11.787 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f8a9f5c] was not registered for synchronization because synchronization is not active
+2024-09-13 08:37:11.788 [http-nio-9271-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b051e1f] will not be managed by Spring
+2024-09-13 08:37:11.791 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user WHERE uid=?
+2024-09-13 08:37:11.792 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==> Parameters: 2(Integer)
+2024-09-13 08:37:11.798 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - <==      Total: 1
+2024-09-13 08:37:11.800 [http-nio-9271-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b051e1f]
+2024-09-13 08:37:11.803 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f8a9f5c]
+2024-09-13 08:37:12.150 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:37:12.150 [http-nio-9271-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:37:12.150 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47a614c2] was not registered for synchronization because synchronization is not active
+2024-09-13 08:37:12.151 [http-nio-9271-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@612a46c5] was not registered for synchronization because synchronization is not active
+2024-09-13 08:37:12.151 [http-nio-9271-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b051e1f] will not be managed by Spring
+2024-09-13 08:37:12.151 [http-nio-9271-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099] will not be managed by Spring
+2024-09-13 08:37:12.152 [http-nio-9271-exec-4] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==>  Preparing: select * from stall,stall_res where stall_res.stall_id=stall.sid and stall_res.person=? order by stall_res.create_time desc
+2024-09-13 08:37:12.152 [http-nio-9271-exec-5] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==>  Preparing: select * from stall,stall_res where stall_res.stall_id=stall.sid and stall_res.person=? order by stall_res.create_time desc
+2024-09-13 08:37:12.153 [http-nio-9271-exec-5] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==> Parameters: user(String)
+2024-09-13 08:37:12.153 [http-nio-9271-exec-4] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==> Parameters: user(String)
+2024-09-13 08:37:12.163 [http-nio-9271-exec-4] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - <==      Total: 14
+2024-09-13 08:37:12.165 [http-nio-9271-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099]
+2024-09-13 08:37:12.166 [http-nio-9271-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@612a46c5]
+2024-09-13 08:37:12.167 [http-nio-9271-exec-5] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - <==      Total: 14
+2024-09-13 08:37:12.168 [http-nio-9271-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b051e1f]
+2024-09-13 08:37:12.169 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47a614c2]
+2024-09-13 08:37:16.581 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:37:16.581 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3bf17317] was not registered for synchronization because synchronization is not active
+2024-09-13 08:37:16.581 [http-nio-9271-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b051e1f] will not be managed by Spring
+2024-09-13 08:37:16.583 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user WHERE uid=?
+2024-09-13 08:37:16.584 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==> Parameters: 3(Integer)
+2024-09-13 08:37:16.587 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - <==      Total: 1
+2024-09-13 08:37:16.587 [http-nio-9271-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b051e1f]
+2024-09-13 08:37:16.588 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3bf17317]
+2024-09-13 08:37:16.923 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:37:16.923 [http-nio-9271-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:37:16.923 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fed06b6] was not registered for synchronization because synchronization is not active
+2024-09-13 08:37:16.923 [http-nio-9271-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f446b6c] was not registered for synchronization because synchronization is not active
+2024-09-13 08:37:16.924 [http-nio-9271-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b051e1f] will not be managed by Spring
+2024-09-13 08:37:16.924 [http-nio-9271-exec-9] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099] will not be managed by Spring
+2024-09-13 08:37:16.925 [http-nio-9271-exec-2] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==>  Preparing: select * from stall,stall_res where stall_res.stall_id=stall.sid and stall_res.person=? order by stall_res.create_time desc
+2024-09-13 08:37:16.926 [http-nio-9271-exec-9] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==>  Preparing: select * from stall,stall_res where stall_res.stall_id=stall.sid and stall_res.person=? order by stall_res.create_time desc
+2024-09-13 08:37:16.926 [http-nio-9271-exec-9] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==> Parameters: user1(String)
+2024-09-13 08:37:16.926 [http-nio-9271-exec-2] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==> Parameters: user1(String)
+2024-09-13 08:37:16.931 [http-nio-9271-exec-2] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - <==      Total: 5
+2024-09-13 08:37:16.931 [http-nio-9271-exec-9] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - <==      Total: 5
+2024-09-13 08:37:16.931 [http-nio-9271-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b051e1f]
+2024-09-13 08:37:16.932 [http-nio-9271-exec-9] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099]
+2024-09-13 08:37:16.933 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fed06b6]
+2024-09-13 08:37:16.933 [http-nio-9271-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f446b6c]
+2024-09-13 08:37:56.438 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:37:56.439 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43340eba] was not registered for synchronization because synchronization is not active
+2024-09-13 08:37:56.439 [http-nio-9271-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099] will not be managed by Spring
+2024-09-13 08:37:56.441 [http-nio-9271-exec-3] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user WHERE uid=?
+2024-09-13 08:37:56.441 [http-nio-9271-exec-3] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==> Parameters: 2(Integer)
+2024-09-13 08:37:56.444 [http-nio-9271-exec-3] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - <==      Total: 1
+2024-09-13 08:37:56.445 [http-nio-9271-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099]
+2024-09-13 08:37:56.445 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43340eba]
+2024-09-13 08:37:56.446 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:37:56.446 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6dc360c1] was not registered for synchronization because synchronization is not active
+2024-09-13 08:37:56.448 [http-nio-9271-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099] will not be managed by Spring
+2024-09-13 08:37:56.449 [http-nio-9271-exec-3] DEBUG com.rabbiter.pm.mapper.UserMapper.updateById - ==>  Preparing: UPDATE user SET money=? WHERE uid=?
+2024-09-13 08:37:56.451 [http-nio-9271-exec-3] DEBUG com.rabbiter.pm.mapper.UserMapper.updateById - ==> Parameters: 230.18(Double), 2(Integer)
+2024-09-13 08:37:56.477 [http-nio-9271-exec-3] DEBUG com.rabbiter.pm.mapper.UserMapper.updateById - <==    Updates: 1
+2024-09-13 08:37:56.477 [http-nio-9271-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099]
+2024-09-13 08:37:56.480 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6dc360c1]
+2024-09-13 08:37:56.814 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:37:56.815 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a9f2182] was not registered for synchronization because synchronization is not active
+2024-09-13 08:37:56.815 [http-nio-9271-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099] will not be managed by Spring
+2024-09-13 08:37:56.816 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user WHERE uid=?
+2024-09-13 08:37:56.816 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==> Parameters: 2(Integer)
+2024-09-13 08:37:56.820 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - <==      Total: 1
+2024-09-13 08:37:56.820 [http-nio-9271-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099]
+2024-09-13 08:37:56.821 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a9f2182]
+2024-09-13 08:37:57.079 [http-nio-9271-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:37:57.079 [http-nio-9271-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a6f2ebc] was not registered for synchronization because synchronization is not active
+2024-09-13 08:37:57.080 [http-nio-9271-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099] will not be managed by Spring
+2024-09-13 08:37:57.082 [http-nio-9271-exec-7] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==>  Preparing: select * from stall,stall_res where stall_res.stall_id=stall.sid and stall_res.person=? order by stall_res.create_time desc
+2024-09-13 08:37:57.083 [http-nio-9271-exec-7] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==> Parameters: user(String)
+2024-09-13 08:37:57.110 [http-nio-9271-exec-7] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - <==      Total: 14
+2024-09-13 08:37:57.111 [http-nio-9271-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099]
+2024-09-13 08:37:57.112 [http-nio-9271-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a6f2ebc]
+2024-09-13 08:37:57.156 [http-nio-9271-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:37:57.157 [http-nio-9271-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d6fdfe5] was not registered for synchronization because synchronization is not active
+2024-09-13 08:37:57.157 [http-nio-9271-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099] will not be managed by Spring
+2024-09-13 08:37:57.159 [http-nio-9271-exec-10] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==>  Preparing: select * from stall,stall_res where stall_res.stall_id=stall.sid and stall_res.person=? order by stall_res.create_time desc
+2024-09-13 08:37:57.159 [http-nio-9271-exec-10] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==> Parameters: user(String)
+2024-09-13 08:37:57.167 [http-nio-9271-exec-10] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - <==      Total: 14
+2024-09-13 08:37:57.168 [http-nio-9271-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099]
+2024-09-13 08:37:57.169 [http-nio-9271-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d6fdfe5]
+2024-09-13 08:38:39.134 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:38:39.135 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@8f9853c] was not registered for synchronization because synchronization is not active
+2024-09-13 08:38:39.138 [http-nio-9271-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099] will not be managed by Spring
+2024-09-13 08:38:39.138 [http-nio-9271-exec-1] DEBUG c.b.m.e.p.p.optimize.JsqlParserCountOptimize - JsqlParserCountOptimize sql=SELECT  sid,stall_num,stall_area,stall_type,stall_state,stall_money,stall_live,user_id  FROM stall 
+ 
+ WHERE (stall_live = ?)
+2024-09-13 08:38:39.140 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM stall WHERE (stall_live = ?)
+2024-09-13 08:38:39.140 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==> Parameters: 1(String)
+2024-09-13 08:38:39.148 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==>  Preparing: SELECT sid,stall_num,stall_area,stall_type,stall_state,stall_money,stall_live,user_id FROM stall WHERE (stall_live = ?) LIMIT ?
+2024-09-13 08:38:39.148 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==> Parameters: 1(String), 5(Long)
+2024-09-13 08:38:39.150 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - <==      Total: 5
+2024-09-13 08:38:39.150 [http-nio-9271-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099]
+2024-09-13 08:38:39.151 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@8f9853c]
+2024-09-13 08:38:59.577 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:38:59.577 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5616323f]
+2024-09-13 08:38:59.580 [http-nio-9271-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099] will be managed by Spring
+2024-09-13 08:38:59.582 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.StallMapper.selectById - ==>  Preparing: SELECT sid,stall_num,stall_area,stall_type,stall_state,stall_money,stall_live,user_id FROM stall WHERE sid=?
+2024-09-13 08:38:59.583 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.StallMapper.selectById - ==> Parameters: 11(Integer)
+2024-09-13 08:38:59.584 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.StallMapper.selectById - <==      Total: 1
+2024-09-13 08:38:59.585 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5616323f]
+2024-09-13 08:38:59.586 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5616323f] from current transaction
+2024-09-13 08:38:59.589 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.StallMapper.updateById - ==>  Preparing: UPDATE stall SET stall_num=?, stall_area=?, stall_type=?, stall_state=?, stall_money=?, stall_live=?, user_id=? WHERE sid=?
+2024-09-13 08:38:59.591 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.StallMapper.updateById - ==> Parameters: A03(String), 兔子小区(String), 临时车位(String), 已停车(String), 8.0(Double), 1(String), 2(Integer), 11(Integer)
+2024-09-13 08:38:59.593 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.StallMapper.updateById - <==    Updates: 1
+2024-09-13 08:38:59.594 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5616323f]
+2024-09-13 08:38:59.594 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5616323f] from current transaction
+2024-09-13 08:38:59.595 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user WHERE uid=?
+2024-09-13 08:38:59.596 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==> Parameters: 2(Integer)
+2024-09-13 08:38:59.599 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - <==      Total: 1
+2024-09-13 08:38:59.600 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5616323f]
+2024-09-13 08:38:59.601 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5616323f] from current transaction
+2024-09-13 08:38:59.605 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.StallResMapper.insert - ==>  Preparing: INSERT INTO stall_res ( person, stall_id, create_time ) VALUES ( ?, ?, ? )
+2024-09-13 08:38:59.614 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.StallResMapper.insert - ==> Parameters: user(String), 11(Integer), 2024-09-13T08:38:59.601301700(LocalDateTime)
+2024-09-13 08:38:59.616 [http-nio-9271-exec-5] DEBUG com.rabbiter.pm.mapper.StallResMapper.insert - <==    Updates: 1
+2024-09-13 08:38:59.622 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5616323f]
+2024-09-13 08:38:59.624 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5616323f]
+2024-09-13 08:38:59.624 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5616323f]
+2024-09-13 08:38:59.625 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5616323f]
+2024-09-13 08:38:59.807 [http-nio-9271-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:38:59.807 [http-nio-9271-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39fb655d] was not registered for synchronization because synchronization is not active
+2024-09-13 08:38:59.812 [http-nio-9271-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099] will not be managed by Spring
+2024-09-13 08:38:59.814 [http-nio-9271-exec-4] DEBUG c.b.m.e.p.p.optimize.JsqlParserCountOptimize - JsqlParserCountOptimize sql=SELECT  sid,stall_num,stall_area,stall_type,stall_state,stall_money,stall_live,user_id  FROM stall 
+ 
+ WHERE (stall_live = ?)
+2024-09-13 08:38:59.818 [http-nio-9271-exec-4] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM stall WHERE (stall_live = ?)
+2024-09-13 08:38:59.818 [http-nio-9271-exec-4] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==> Parameters: 1(String)
+2024-09-13 08:38:59.821 [http-nio-9271-exec-4] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==>  Preparing: SELECT sid,stall_num,stall_area,stall_type,stall_state,stall_money,stall_live,user_id FROM stall WHERE (stall_live = ?) LIMIT ?
+2024-09-13 08:38:59.822 [http-nio-9271-exec-4] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==> Parameters: 1(String), 5(Long)
+2024-09-13 08:38:59.824 [http-nio-9271-exec-4] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - <==      Total: 5
+2024-09-13 08:38:59.824 [http-nio-9271-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a9d4099]
+2024-09-13 08:38:59.825 [http-nio-9271-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39fb655d]
+2024-09-13 08:41:05.839 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:41:05.841 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@446c737a] was not registered for synchronization because synchronization is not active
+2024-09-13 08:41:05.845 [http-nio-9271-exec-8] DEBUG com.alibaba.druid.pool.DruidDataSource - skip not validate connection.
+2024-09-13 08:41:05.847 [http-nio-9271-exec-8] DEBUG com.alibaba.druid.pool.DruidDataSource - skip not validate connection.
+2024-09-13 08:41:05.859 [http-nio-9271-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@29b02546] will not be managed by Spring
+2024-09-13 08:41:05.860 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.FeeMapper.selectList - ==>  Preparing: SELECT fid,car_type,money,money_desc,fee_time FROM fee WHERE (car_type LIKE ?)
+2024-09-13 08:41:05.861 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.FeeMapper.selectList - ==> Parameters: %%(String)
+2024-09-13 08:41:05.866 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.FeeMapper.selectList - <==      Total: 2
+2024-09-13 08:41:05.866 [http-nio-9271-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@29b02546]
+2024-09-13 08:41:05.867 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@446c737a]
+2024-09-13 08:43:42.881 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:43:42.881 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@14a211e6] was not registered for synchronization because synchronization is not active
+2024-09-13 08:43:42.885 [http-nio-9271-exec-2] DEBUG com.alibaba.druid.pool.DruidDataSource - skip not validate connection.
+2024-09-13 08:43:42.897 [http-nio-9271-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@45c04b80] will not be managed by Spring
+2024-09-13 08:43:42.898 [http-nio-9271-exec-2] DEBUG c.b.m.e.p.p.optimize.JsqlParserCountOptimize - JsqlParserCountOptimize sql=select *
+        from stall,user
+        where stall.user_id=user.uid
+         
+            and user.nike like CONCAT('%',?,'%')
+         
+         
+            and user.card like CONCAT('%',?,'%')
+2024-09-13 08:43:42.902 [http-nio-9271-exec-2] DEBUG com.rabbiter.pm.mapper.StallMapper.getStallAll - ==>  Preparing: SELECT COUNT(1) FROM stall, user WHERE stall.user_id = user.uid AND user.nike LIKE CONCAT('%', ?, '%') AND user.card LIKE CONCAT('%', ?, '%')
+2024-09-13 08:43:42.903 [http-nio-9271-exec-2] DEBUG com.rabbiter.pm.mapper.StallMapper.getStallAll - ==> Parameters: (String), (String)
+2024-09-13 08:43:42.908 [http-nio-9271-exec-2] DEBUG com.rabbiter.pm.mapper.StallMapper.getStallAll - ==>  Preparing: select * from stall,user where stall.user_id=user.uid and user.nike like CONCAT('%',?,'%') and user.card like CONCAT('%',?,'%') LIMIT ?
+2024-09-13 08:43:42.909 [http-nio-9271-exec-2] DEBUG com.rabbiter.pm.mapper.StallMapper.getStallAll - ==> Parameters: (String), (String), 5(Long)
+2024-09-13 08:43:42.914 [http-nio-9271-exec-2] DEBUG com.rabbiter.pm.mapper.StallMapper.getStallAll - <==      Total: 3
+2024-09-13 08:43:42.915 [http-nio-9271-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@45c04b80]
+2024-09-13 08:43:42.915 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@14a211e6]
+2024-09-13 08:43:43.868 [http-nio-9271-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:43:43.869 [http-nio-9271-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2fcfb154] was not registered for synchronization because synchronization is not active
+2024-09-13 08:43:43.871 [http-nio-9271-exec-9] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@45c04b80] will not be managed by Spring
+2024-09-13 08:43:43.873 [http-nio-9271-exec-9] DEBUG com.rabbiter.pm.mapper.FeeMapper.selectList - ==>  Preparing: SELECT fid,car_type,money,money_desc,fee_time FROM fee WHERE (car_type LIKE ?)
+2024-09-13 08:43:43.876 [http-nio-9271-exec-9] DEBUG com.rabbiter.pm.mapper.FeeMapper.selectList - ==> Parameters: %%(String)
+2024-09-13 08:43:43.878 [http-nio-9271-exec-9] DEBUG com.rabbiter.pm.mapper.FeeMapper.selectList - <==      Total: 2
+2024-09-13 08:43:43.879 [http-nio-9271-exec-9] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@45c04b80]
+2024-09-13 08:43:43.879 [http-nio-9271-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2fcfb154]
+2024-09-13 08:43:53.559 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:43:53.560 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@783bc385] was not registered for synchronization because synchronization is not active
+2024-09-13 08:43:53.561 [http-nio-9271-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@45c04b80] will not be managed by Spring
+2024-09-13 08:43:53.562 [http-nio-9271-exec-3] DEBUG c.b.m.e.p.p.optimize.JsqlParserCountOptimize - JsqlParserCountOptimize sql=select *
+        from stall,user
+        where stall.user_id=user.uid
+         
+            and user.nike like CONCAT('%',?,'%')
+         
+         
+            and user.card like CONCAT('%',?,'%')
+2024-09-13 08:43:53.565 [http-nio-9271-exec-3] DEBUG com.rabbiter.pm.mapper.StallMapper.getStallAll - ==>  Preparing: SELECT COUNT(1) FROM stall, user WHERE stall.user_id = user.uid AND user.nike LIKE CONCAT('%', ?, '%') AND user.card LIKE CONCAT('%', ?, '%')
+2024-09-13 08:43:53.566 [http-nio-9271-exec-3] DEBUG com.rabbiter.pm.mapper.StallMapper.getStallAll - ==> Parameters: (String), (String)
+2024-09-13 08:43:53.569 [http-nio-9271-exec-3] DEBUG com.rabbiter.pm.mapper.StallMapper.getStallAll - ==>  Preparing: select * from stall,user where stall.user_id=user.uid and user.nike like CONCAT('%',?,'%') and user.card like CONCAT('%',?,'%') LIMIT ?
+2024-09-13 08:43:53.570 [http-nio-9271-exec-3] DEBUG com.rabbiter.pm.mapper.StallMapper.getStallAll - ==> Parameters: (String), (String), 5(Long)
+2024-09-13 08:43:53.575 [http-nio-9271-exec-3] DEBUG com.rabbiter.pm.mapper.StallMapper.getStallAll - <==      Total: 3
+2024-09-13 08:43:53.575 [http-nio-9271-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@45c04b80]
+2024-09-13 08:43:53.576 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@783bc385]
+2024-09-13 08:44:03.257 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:44:03.257 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2cb752a9] was not registered for synchronization because synchronization is not active
+2024-09-13 08:44:03.259 [http-nio-9271-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@45c04b80] will not be managed by Spring
+2024-09-13 08:44:03.261 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.FeeMapper.selectList - ==>  Preparing: SELECT fid,car_type,money,money_desc,fee_time FROM fee WHERE (car_type LIKE ?)
+2024-09-13 08:44:03.261 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.FeeMapper.selectList - ==> Parameters: %%(String)
+2024-09-13 08:44:03.263 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.FeeMapper.selectList - <==      Total: 2
+2024-09-13 08:44:03.263 [http-nio-9271-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@45c04b80]
+2024-09-13 08:44:03.263 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2cb752a9]
+2024-09-13 08:44:05.073 [http-nio-9271-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:44:05.073 [http-nio-9271-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3b724b7a] was not registered for synchronization because synchronization is not active
+2024-09-13 08:44:05.073 [http-nio-9271-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@45c04b80] will not be managed by Spring
+2024-09-13 08:44:05.075 [http-nio-9271-exec-7] DEBUG c.b.m.e.p.p.optimize.JsqlParserCountOptimize - JsqlParserCountOptimize sql=select *
+        from stall,user
+        where stall.user_id=user.uid
+         
+            and user.nike like CONCAT('%',?,'%')
+         
+         
+            and user.card like CONCAT('%',?,'%')
+2024-09-13 08:44:05.078 [http-nio-9271-exec-7] DEBUG com.rabbiter.pm.mapper.StallMapper.getStallAll - ==>  Preparing: SELECT COUNT(1) FROM stall, user WHERE stall.user_id = user.uid AND user.nike LIKE CONCAT('%', ?, '%') AND user.card LIKE CONCAT('%', ?, '%')
+2024-09-13 08:44:05.078 [http-nio-9271-exec-7] DEBUG com.rabbiter.pm.mapper.StallMapper.getStallAll - ==> Parameters: (String), (String)
+2024-09-13 08:44:05.082 [http-nio-9271-exec-7] DEBUG com.rabbiter.pm.mapper.StallMapper.getStallAll - ==>  Preparing: select * from stall,user where stall.user_id=user.uid and user.nike like CONCAT('%',?,'%') and user.card like CONCAT('%',?,'%') LIMIT ?
+2024-09-13 08:44:05.083 [http-nio-9271-exec-7] DEBUG com.rabbiter.pm.mapper.StallMapper.getStallAll - ==> Parameters: (String), (String), 5(Long)
+2024-09-13 08:44:05.087 [http-nio-9271-exec-7] DEBUG com.rabbiter.pm.mapper.StallMapper.getStallAll - <==      Total: 3
+2024-09-13 08:44:05.087 [http-nio-9271-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@45c04b80]
+2024-09-13 08:44:05.088 [http-nio-9271-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3b724b7a]
+2024-09-13 08:52:49.252 [http-nio-9271-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:52:49.253 [http-nio-9271-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@182fba81] was not registered for synchronization because synchronization is not active
+2024-09-13 08:52:49.260 [http-nio-9271-exec-10] DEBUG com.alibaba.druid.pool.DruidDataSource - skip not validate connection.
+2024-09-13 08:52:49.278 [http-nio-9271-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@549e077c] will not be managed by Spring
+2024-09-13 08:52:49.281 [http-nio-9271-exec-10] DEBUG c.b.m.e.p.p.optimize.JsqlParserCountOptimize - JsqlParserCountOptimize sql=select * from stall_res,stall
+        where stall_res.stall_id = stall.sid
+         
+            and stall_res.person like CONCAT('%',?,'%')
+         
+         
+         
+            and stall.stall_area like CONCAT('%',?,'%')
+         
+        order by stall_res.create_time desc
+2024-09-13 08:52:49.285 [http-nio-9271-exec-10] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - ==>  Preparing: SELECT COUNT(1) FROM stall_res, stall WHERE stall_res.stall_id = stall.sid AND stall_res.person LIKE CONCAT('%', ?, '%') AND stall.stall_area LIKE CONCAT('%', ?, '%')
+2024-09-13 08:52:49.287 [http-nio-9271-exec-10] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - ==> Parameters: (String), (String)
+2024-09-13 08:52:49.297 [http-nio-9271-exec-10] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - ==>  Preparing: select * from stall_res,stall where stall_res.stall_id = stall.sid and stall_res.person like CONCAT('%',?,'%') and stall.stall_area like CONCAT('%',?,'%') order by stall_res.create_time desc LIMIT ?
+2024-09-13 08:52:49.298 [http-nio-9271-exec-10] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - ==> Parameters: (String), (String), 6(Long)
+2024-09-13 08:52:49.303 [http-nio-9271-exec-10] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - <==      Total: 6
+2024-09-13 08:52:49.304 [http-nio-9271-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@549e077c]
+2024-09-13 08:52:49.305 [http-nio-9271-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@182fba81]
+2024-09-13 08:52:52.444 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:52:52.445 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4fff4287] was not registered for synchronization because synchronization is not active
+2024-09-13 08:52:52.446 [http-nio-9271-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@549e077c] will not be managed by Spring
+2024-09-13 08:52:52.447 [http-nio-9271-exec-1] DEBUG c.b.m.e.p.p.optimize.JsqlParserCountOptimize - JsqlParserCountOptimize sql=SELECT  yid,person,ip,browser,os,login_time  FROM login_info
+2024-09-13 08:52:52.449 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.LoginInfoMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM login_info
+2024-09-13 08:52:52.450 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.LoginInfoMapper.selectPage - ==> Parameters: 
+2024-09-13 08:52:52.453 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.LoginInfoMapper.selectPage - ==>  Preparing: SELECT yid,person,ip,browser,os,login_time FROM login_info LIMIT ?
+2024-09-13 08:52:52.453 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.LoginInfoMapper.selectPage - ==> Parameters: 5(Long)
+2024-09-13 08:52:52.456 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.LoginInfoMapper.selectPage - <==      Total: 5
+2024-09-13 08:52:52.458 [http-nio-9271-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@549e077c]
+2024-09-13 08:52:52.460 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4fff4287]
+2024-09-13 08:53:05.312 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:53:05.313 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20cac6fa] was not registered for synchronization because synchronization is not active
+2024-09-13 08:53:05.313 [http-nio-9271-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@549e077c] will not be managed by Spring
+2024-09-13 08:53:05.315 [http-nio-9271-exec-5] DEBUG c.b.m.e.p.p.optimize.JsqlParserCountOptimize - JsqlParserCountOptimize sql=select * from stall_res,stall
+        where stall_res.stall_id = stall.sid
+         
+            and stall_res.person like CONCAT('%',?,'%')
+         
+         
+         
+            and stall.stall_area like CONCAT('%',?,'%')
+         
+        order by stall_res.create_time desc
+2024-09-13 08:53:05.318 [http-nio-9271-exec-5] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - ==>  Preparing: SELECT COUNT(1) FROM stall_res, stall WHERE stall_res.stall_id = stall.sid AND stall_res.person LIKE CONCAT('%', ?, '%') AND stall.stall_area LIKE CONCAT('%', ?, '%')
+2024-09-13 08:53:05.318 [http-nio-9271-exec-5] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - ==> Parameters: (String), (String)
+2024-09-13 08:53:05.321 [http-nio-9271-exec-5] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - ==>  Preparing: select * from stall_res,stall where stall_res.stall_id = stall.sid and stall_res.person like CONCAT('%',?,'%') and stall.stall_area like CONCAT('%',?,'%') order by stall_res.create_time desc LIMIT ?
+2024-09-13 08:53:05.322 [http-nio-9271-exec-5] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - ==> Parameters: (String), (String), 6(Long)
+2024-09-13 08:53:05.328 [http-nio-9271-exec-5] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - <==      Total: 6
+2024-09-13 08:53:05.328 [http-nio-9271-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@549e077c]
+2024-09-13 08:53:05.330 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20cac6fa]
+2024-09-13 08:53:06.115 [http-nio-9271-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:53:06.115 [http-nio-9271-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61a9460c] was not registered for synchronization because synchronization is not active
+2024-09-13 08:53:06.115 [http-nio-9271-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@549e077c] will not be managed by Spring
+2024-09-13 08:53:06.116 [http-nio-9271-exec-4] DEBUG c.b.m.e.p.p.optimize.JsqlParserCountOptimize - JsqlParserCountOptimize sql=SELECT  yid,person,ip,browser,os,login_time  FROM login_info
+2024-09-13 08:53:06.120 [http-nio-9271-exec-4] DEBUG com.rabbiter.pm.mapper.LoginInfoMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM login_info
+2024-09-13 08:53:06.122 [http-nio-9271-exec-4] DEBUG com.rabbiter.pm.mapper.LoginInfoMapper.selectPage - ==> Parameters: 
+2024-09-13 08:53:06.125 [http-nio-9271-exec-4] DEBUG com.rabbiter.pm.mapper.LoginInfoMapper.selectPage - ==>  Preparing: SELECT yid,person,ip,browser,os,login_time FROM login_info LIMIT ?
+2024-09-13 08:53:06.126 [http-nio-9271-exec-4] DEBUG com.rabbiter.pm.mapper.LoginInfoMapper.selectPage - ==> Parameters: 5(Long)
+2024-09-13 08:53:06.129 [http-nio-9271-exec-4] DEBUG com.rabbiter.pm.mapper.LoginInfoMapper.selectPage - <==      Total: 5
+2024-09-13 08:53:06.129 [http-nio-9271-exec-4] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@549e077c]
+2024-09-13 08:53:06.130 [http-nio-9271-exec-4] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61a9460c]
+2024-09-13 08:55:25.172 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:55:25.173 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@659db679] was not registered for synchronization because synchronization is not active
+2024-09-13 08:55:25.175 [http-nio-9271-exec-8] DEBUG com.alibaba.druid.pool.DruidDataSource - skip not validate connection.
+2024-09-13 08:55:25.191 [http-nio-9271-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4ebb0b4f] will not be managed by Spring
+2024-09-13 08:55:25.192 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user WHERE uid=?
+2024-09-13 08:55:25.197 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==> Parameters: 2(Integer)
+2024-09-13 08:55:25.201 [http-nio-9271-exec-8] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - <==      Total: 1
+2024-09-13 08:55:25.202 [http-nio-9271-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4ebb0b4f]
+2024-09-13 08:55:25.203 [http-nio-9271-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@659db679]
+2024-09-13 08:55:25.219 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:55:25.219 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54be3e12] was not registered for synchronization because synchronization is not active
+2024-09-13 08:55:25.219 [http-nio-9271-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4ebb0b4f] will not be managed by Spring
+2024-09-13 08:55:25.220 [http-nio-9271-exec-2] DEBUG com.rabbiter.pm.mapper.UserMapper.getUserDataType - ==>  Preparing: select s.stall_type as name,count(1) as value from stall_res r,stall s where r.stall_id=s.sid and r.person=? group by s.stall_type
+2024-09-13 08:55:25.221 [http-nio-9271-exec-2] DEBUG com.rabbiter.pm.mapper.UserMapper.getUserDataType - ==> Parameters: user(String)
+2024-09-13 08:55:25.224 [http-nio-9271-exec-2] DEBUG com.rabbiter.pm.mapper.UserMapper.getUserDataType - <==      Total: 2
+2024-09-13 08:55:25.225 [http-nio-9271-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4ebb0b4f]
+2024-09-13 08:55:25.225 [http-nio-9271-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54be3e12]
+2024-09-13 08:55:25.535 [http-nio-9271-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:55:25.535 [http-nio-9271-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5775d44f] was not registered for synchronization because synchronization is not active
+2024-09-13 08:55:25.535 [http-nio-9271-exec-9] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4ebb0b4f] will not be managed by Spring
+2024-09-13 08:55:25.536 [http-nio-9271-exec-9] DEBUG com.rabbiter.pm.mapper.UserMapper.getUserDataMoney - ==>  Preparing: select DATE_FORMAT(over_time,"%Y-%m-%d") name,sum(pay_money) value from stall_res where person=? and over_time is NOT NULL group by DATE_FORMAT(over_time,"%Y-%m-%d") order by DATE_FORMAT(over_time,"%Y-%m-%d") ASC limit 0,5
+2024-09-13 08:55:25.537 [http-nio-9271-exec-9] DEBUG com.rabbiter.pm.mapper.UserMapper.getUserDataMoney - ==> Parameters: user(String)
+2024-09-13 08:55:25.539 [http-nio-9271-exec-9] DEBUG com.rabbiter.pm.mapper.UserMapper.getUserDataMoney - <==      Total: 5
+2024-09-13 08:55:25.539 [http-nio-9271-exec-9] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4ebb0b4f]
+2024-09-13 08:55:25.540 [http-nio-9271-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5775d44f]
+2024-09-13 08:55:27.162 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:55:27.162 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52f3722c] was not registered for synchronization because synchronization is not active
+2024-09-13 08:55:27.168 [http-nio-9271-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4ebb0b4f] will not be managed by Spring
+2024-09-13 08:55:27.169 [http-nio-9271-exec-3] DEBUG c.b.m.e.p.p.optimize.JsqlParserCountOptimize - JsqlParserCountOptimize sql=SELECT  sid,stall_num,stall_area,stall_type,stall_state,stall_money,stall_live,user_id  FROM stall 
+ 
+ WHERE (stall_live = ?)
+2024-09-13 08:55:27.171 [http-nio-9271-exec-3] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM stall WHERE (stall_live = ?)
+2024-09-13 08:55:27.171 [http-nio-9271-exec-3] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==> Parameters: 1(String)
+2024-09-13 08:55:27.174 [http-nio-9271-exec-3] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==>  Preparing: SELECT sid,stall_num,stall_area,stall_type,stall_state,stall_money,stall_live,user_id FROM stall WHERE (stall_live = ?) LIMIT ?
+2024-09-13 08:55:27.175 [http-nio-9271-exec-3] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==> Parameters: 1(String), 5(Long)
+2024-09-13 08:55:27.177 [http-nio-9271-exec-3] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - <==      Total: 5
+2024-09-13 08:55:27.178 [http-nio-9271-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4ebb0b4f]
+2024-09-13 08:55:27.179 [http-nio-9271-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52f3722c]
+2024-09-13 08:55:28.921 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:55:28.922 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a740ded] was not registered for synchronization because synchronization is not active
+2024-09-13 08:55:28.923 [http-nio-9271-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4ebb0b4f] will not be managed by Spring
+2024-09-13 08:55:28.924 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==>  Preparing: SELECT uid,username,password,nike,age,sex,phone,card,money,role,create_time FROM user WHERE uid=?
+2024-09-13 08:55:28.924 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - ==> Parameters: 2(Integer)
+2024-09-13 08:55:28.926 [http-nio-9271-exec-6] DEBUG com.rabbiter.pm.mapper.UserMapper.selectById - <==      Total: 1
+2024-09-13 08:55:28.927 [http-nio-9271-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4ebb0b4f]
+2024-09-13 08:55:28.928 [http-nio-9271-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a740ded]
+2024-09-13 08:55:29.267 [http-nio-9271-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:55:29.268 [http-nio-9271-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:55:29.268 [http-nio-9271-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50351356] was not registered for synchronization because synchronization is not active
+2024-09-13 08:55:29.268 [http-nio-9271-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e18516d] was not registered for synchronization because synchronization is not active
+2024-09-13 08:55:29.269 [http-nio-9271-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4ebb0b4f] will not be managed by Spring
+2024-09-13 08:55:29.270 [http-nio-9271-exec-7] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==>  Preparing: select * from stall,stall_res where stall_res.stall_id=stall.sid and stall_res.person=? order by stall_res.create_time desc
+2024-09-13 08:55:29.271 [http-nio-9271-exec-7] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==> Parameters: user(String)
+2024-09-13 08:55:29.278 [http-nio-9271-exec-7] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - <==      Total: 15
+2024-09-13 08:55:29.278 [http-nio-9271-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4ebb0b4f]
+2024-09-13 08:55:29.279 [http-nio-9271-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50351356]
+2024-09-13 08:55:29.279 [http-nio-9271-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4ebb0b4f] will not be managed by Spring
+2024-09-13 08:55:29.281 [http-nio-9271-exec-10] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==>  Preparing: select * from stall,stall_res where stall_res.stall_id=stall.sid and stall_res.person=? order by stall_res.create_time desc
+2024-09-13 08:55:29.281 [http-nio-9271-exec-10] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - ==> Parameters: user(String)
+2024-09-13 08:55:29.287 [http-nio-9271-exec-10] DEBUG c.rabbiter.pm.mapper.StallResMapper.getAllStallRes - <==      Total: 15
+2024-09-13 08:55:29.289 [http-nio-9271-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4ebb0b4f]
+2024-09-13 08:55:29.290 [http-nio-9271-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e18516d]
+2024-09-13 08:56:06.395 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:56:06.395 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32154e42] was not registered for synchronization because synchronization is not active
+2024-09-13 08:56:06.397 [http-nio-9271-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4ebb0b4f] will not be managed by Spring
+2024-09-13 08:56:06.398 [http-nio-9271-exec-1] DEBUG c.b.m.e.p.p.optimize.JsqlParserCountOptimize - JsqlParserCountOptimize sql=SELECT  sid,stall_num,stall_area,stall_type,stall_state,stall_money,stall_live,user_id  FROM stall 
+ 
+ WHERE (stall_live = ?)
+2024-09-13 08:56:06.400 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM stall WHERE (stall_live = ?)
+2024-09-13 08:56:06.400 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==> Parameters: 1(String)
+2024-09-13 08:56:06.402 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==>  Preparing: SELECT sid,stall_num,stall_area,stall_type,stall_state,stall_money,stall_live,user_id FROM stall WHERE (stall_live = ?) LIMIT ?
+2024-09-13 08:56:06.403 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - ==> Parameters: 1(String), 5(Long)
+2024-09-13 08:56:06.406 [http-nio-9271-exec-1] DEBUG com.rabbiter.pm.mapper.StallMapper.selectPage - <==      Total: 5
+2024-09-13 08:56:06.408 [http-nio-9271-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4ebb0b4f]
+2024-09-13 08:56:06.410 [http-nio-9271-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32154e42]
+2024-09-13 08:56:51.943 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2024-09-13 08:56:51.943 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ccba0a7] was not registered for synchronization because synchronization is not active
+2024-09-13 08:56:51.944 [http-nio-9271-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4ebb0b4f] will not be managed by Spring
+2024-09-13 08:56:51.946 [http-nio-9271-exec-5] DEBUG c.b.m.e.p.p.optimize.JsqlParserCountOptimize - JsqlParserCountOptimize sql=select * from stall_res,stall
+        where stall_res.stall_id = stall.sid
+         
+            and stall_res.person like CONCAT('%',?,'%')
+         
+         
+         
+            and stall.stall_area like CONCAT('%',?,'%')
+         
+        order by stall_res.create_time desc
+2024-09-13 08:56:51.949 [http-nio-9271-exec-5] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - ==>  Preparing: SELECT COUNT(1) FROM stall_res, stall WHERE stall_res.stall_id = stall.sid AND stall_res.person LIKE CONCAT('%', ?, '%') AND stall.stall_area LIKE CONCAT('%', ?, '%')
+2024-09-13 08:56:51.950 [http-nio-9271-exec-5] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - ==> Parameters: (String), (String)
+2024-09-13 08:56:51.954 [http-nio-9271-exec-5] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - ==>  Preparing: select * from stall_res,stall where stall_res.stall_id = stall.sid and stall_res.person like CONCAT('%',?,'%') and stall.stall_area like CONCAT('%',?,'%') order by stall_res.create_time desc LIMIT ?
+2024-09-13 08:56:51.956 [http-nio-9271-exec-5] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - ==> Parameters: (String), (String), 6(Long)
+2024-09-13 08:56:51.959 [http-nio-9271-exec-5] DEBUG c.r.pm.mapper.StallResMapper.getAllListStallRes - <==      Total: 6
+2024-09-13 08:56:51.960 [http-nio-9271-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4ebb0b4f]
+2024-09-13 08:56:51.960 [http-nio-9271-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ccba0a7]

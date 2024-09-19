@@ -1,0 +1,38 @@
+2024-09-04 08:41:08.104 [main] INFO  com.rabbiter.pm.ParkingApplication - Starting ParkingApplication on LAPTOP-AB64R6FA with PID 12584 (D:\mycode\ideacode\ParkingManagerApi - idea\target\classes started by wangyan in D:\mycode\ideacode\ParkingManagerApi - idea)
+2024-09-04 08:41:08.119 [main] INFO  com.rabbiter.pm.ParkingApplication - No active profile set, falling back to default profiles: default
+2024-09-04 08:41:09.759 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9271 (http)
+2024-09-04 08:41:09.769 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9271"]
+2024-09-04 08:41:09.770 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-04 08:41:09.770 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-09-04 08:41:09.866 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-04 08:41:09.866 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1677 ms
+2024-09-04 08:41:11.134 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-09-04 08:41:11.509 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9271"]
+2024-09-04 08:41:11.574 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9271 (http) with context path ''
+2024-09-04 08:41:11.591 [main] INFO  com.rabbiter.pm.ParkingApplication - Started ParkingApplication in 4.132 seconds (JVM running for 4.978)
+2024-09-04 08:44:32.520 [http-nio-9271-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-04 08:44:32.521 [http-nio-9271-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-04 08:44:32.540 [http-nio-9271-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 19 ms
+2024-09-04 08:44:33.133 [http-nio-9271-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-09-04 10:24:05.046 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-09-04 10:24:05.048 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-09-04 10:24:05.054 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-09-04 15:27:19.056 [main] INFO  com.rabbiter.pm.ParkingApplication - Starting ParkingApplication on LAPTOP-AB64R6FA with PID 18472 (D:\mycode\ideacode\ParkingManagerApi - idea\target\classes started by wangyan in D:\mycode\ideacode\ParkingManagerApi - idea)
+2024-09-04 15:27:19.059 [main] INFO  com.rabbiter.pm.ParkingApplication - No active profile set, falling back to default profiles: default
+2024-09-04 15:27:20.193 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9271 (http)
+2024-09-04 15:27:20.203 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9271"]
+2024-09-04 15:27:20.204 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-04 15:27:20.205 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-09-04 15:27:20.302 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-04 15:27:20.302 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1187 ms
+2024-09-04 15:27:21.199 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2024-09-04 15:27:21.497 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9271"]
+2024-09-04 15:27:21.541 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9271 (http) with context path ''
+2024-09-04 15:27:21.551 [main] INFO  com.rabbiter.pm.ParkingApplication - Started ParkingApplication in 2.99 seconds (JVM running for 3.714)
+2024-09-04 15:29:36.653 [http-nio-9271-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-04 15:29:36.653 [http-nio-9271-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-04 15:29:36.660 [http-nio-9271-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2024-09-04 15:29:36.937 [http-nio-9271-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-09-04 16:57:42.898 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-09-04 16:57:42.900 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-09-04 16:57:42.905 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

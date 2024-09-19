@@ -1,0 +1,1 @@
+2024-09-18 09:37:24.026 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.rabbiter.sms.dao]' package. Please check your configuration.
